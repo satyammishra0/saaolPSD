@@ -128,17 +128,19 @@ include_once HEAD_TOP;
     <!-- EECP Treatments section -->
     <!-- ============================================================== -->
 
-    <section class="eecp-treatment background-property ">
-        <div class="blue-layer gradient-div grid grid-2 section-padding ">
-            <div class="eecp-treatment-content">
-                <h2 class="home-heading">eecp-treatment</h2>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore dicta voluptas similique quam quo pariatur fugiat perspiciatis? Libero autem explicabo, maiores architecto commodi officia non vitae quaerat, ducimus veniam, sequi quisquam id temporibus ratione impedit earum facere voluptatum. Sunt id totam repellendus impedit quibusdam at cum voluptas rem temporibus eveniet, nulla reprehenderit consectetur cupiditate beatae autem qui. Sed, magni dolor, sit nulla atque eius commodi earum libero deserunt neque alias totam quos explicabo! Corporis saepe voluptatem numquam necessitatibus dolores reprehenderit! Nulla mollitia ad blanditiis error vero tenetur dignissimos amet dolor, numquam doloribus eveniet rem, maiores adipisci beatae in explicabo dicta officia! Harum distinctio sunt iure fuga, laborum suscipit quos dolor rem labore consequatur
-                </p>
-                <button class="main-button ">Know More <span><i class='bx bx-right-arrow-alt'></i></span></button>
-            </div>
-            <div class="eecp-treatment-image grid grid-center">
-                <img src="<?= get_img() ?>/psd/EECP-treatment-machine.png" alt="eecp-treatment img">
+    <section class="eecp-treatments ">
+        <div class="eecp-ttm-parents background-property">
+            <div class="blue-layers gradient-div grid grid-2 section-padding ">
+                <div class="eecp-treatment-contents">
+                    <h2 class="home-heading">eecp-treatment</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore dicta voluptas similique quam quo pariatur fugiat perspiciatis? Libero autem explicabo, maiores architecto commodi officia non vitae quaerat, ducimus veniam, sequi quisquam id temporibus ratione impedit earum facere voluptatum. Sunt id totam repellendus impedit quibusdam at cum voluptas rem temporibus eveniet, nulla reprehenderit consectetur cupiditate beatae autem qui. Sed, magni dolor, sit nulla atque eius commodi earum libero deserunt neque alias totam quos explicabo! Corporis saepe voluptatem numquam necessitatibus dolores reprehenderit! Nulla mollitia ad blanditiis error vero tenetur dignissimos amet dolor, numquam doloribus eveniet rem, maiores adipisci beatae in explicabo dicta officia! Harum distinctio sunt iure fuga, laborum suscipit quos dolor rem labore consequatur
+                    </p>
+                    <button class="main-button ">Know More <span><i class='bx bx-right-arrow-alt'></i></span></button>
+                </div>
+                <div class="eecp-treatment-images grid grid-center">
+                    <img src="<?= get_img() ?>/psd/EECP-treatment-machine.png" alt="eecp-treatment img">
+                </div>
             </div>
         </div>
     </section>
@@ -148,6 +150,91 @@ include_once HEAD_TOP;
     <!-- patient says section -->
     <!-- ============================================================== -->
 
+    <section class="patient-says">
+        <div class="patient-says-first flex ">
+            <h2 class="home-heading">Patient Say's</h2>
+            <div class="gradient-line gradient-div"></div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================== -->
+    <!-- why choose section -->
+    <!-- ============================================================== -->
+    <section class="why-choose">
+        <div class="patient-says-first flex ">
+            <h2 class="home-heading">Why choose us</h2>
+            <div class="gradient-line gradient-div"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, facere in. Necessitatibus culpa reprehenderit consequatur sapiente libero dolores neque incidunt. Veritatis, nulla magnam dolores asperiores nesciunt ea aliquam aut repellat!</p>
+        </div>
+        <div class="why-choose-conatiner grid">
+            <div class="why-choose-conatiner-card gradient-div grid grid-center">
+                <div class="why-choose-img-circle gradient-div grid-center">
+                    <img src="<?= get_img() ?>/psd/WCU-Put the patient first.png" alt="why choose us image">
+                </div>
+                <p class="txt">put the patient first</p>
+            </div>
+            <div class="why-choose-conatiner-card gradient-div grid grid-center">
+                <div class="why-choose-img-circle gradient-div grid-center">
+                    <img src="<?= get_img() ?>/psd/WCU-Take personal.png" alt="why choose us image">
+                </div>
+                <p class="txt">put the patient first</p>
+            </div>
+            <div class="why-choose-conatiner-card gradient-div grid grid-center">
+                <div class="why-choose-img-circle gradient-div grid-center">
+                    <img src="<?= get_img() ?>/psd/WCU-Celebrate the art of.png" alt="why choose us image">
+                </div>
+                <p class="txt">put the patient first</p>
+            </div>
+            <div class="why-choose-conatiner-card gradient-div grid grid-center">
+                <div class="why-choose-img-circle gradient-div grid-center">
+                    <img src="<?= get_img() ?>/psd/WCU-Be fast, but don't hurry.png" alt="why choose us image">
+                </div>
+                <p class="txt">put the patient first</p>
+            </div>
+            <div class="why-choose-conatiner-card gradient-div grid grid-center">
+                <div class="why-choose-img-circle gradient-div grid-center">
+                    <img src="<?= get_img() ?>/psd/WCU-Always work with.png" alt="why choose us image">
+                </div>
+                <p class="txt">put the patient first</p>
+            </div>
+            <div class="why-choose-conatiner-card gradient-div grid grid-center">
+                <div class="why-choose-img-circle gradient-div grid-center">
+                    <img src="<?= get_img() ?>/psd/WCU-Be inquisitive and.png" alt="why choose us image">
+                </div>
+                <p class="txt">put the patient first</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================== -->
+    <!-- Call to action section-->
+    <!-- ============================================================== -->
+    <?php include_once CTA; ?>
+
+
+    <!-- ============================================================== -->
+    <!-- video gallery section-->
+    <!-- ============================================================== -->
+    <?php include_once VIDEO_GALLERY; ?>
+
+
+    <!-- ============================================================== -->
+    <!-- Blog cards section-->
+    <!-- ============================================================== -->
+    <?php include_once BLOG_LIST; ?>
+
+
+    <!-- ============================================================== -->
+    <!-- FAQ's section-->
+    <!-- ============================================================== -->
+    <?php include_once FAQS; ?>
+
+    <!-- ============================================================== -->
+    <!-- Footer section-->
+    <!-- ============================================================== -->
+    <?php include_once FOOTER; ?>
 
 
     <?php include_once SCRIPT; ?>

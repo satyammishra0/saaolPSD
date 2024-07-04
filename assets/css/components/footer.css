@@ -1,0 +1,83 @@
+.footer {
+  background-color: var(--primary-blue-colour);
+}
+
+.footer-container {
+  grid-template-columns: 36% 27% 27%;
+  gap: 5%;
+  padding: 5% 7%;
+}
+
+.footer-container-box-wt {
+  padding: 5%;
+  background-color: var(--white);
+  border-radius: 8px;
+}
+
+.footer-container-box-wt > img {
+  height: 200px;
+}
+
+.footer-container-box-wt {
+  color: var(--white);
+}
+
+.footer-container-box > h3 {
+  margin-bottom: 3%;
+  color: var(--white);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.footer-container-box > ul > li {
+  margin-bottom: 3%;
+}
+
+.footer-container-box > ul > li > a {
+  color: var(--white);
+}
+
+.footer-container-box-h3 {
+  margin-top: 10%;
+}
+
+.contact-details-container {
+  grid-template-columns: 15% 1fr;
+  color: var(--white);
+  margin-bottom: 4%;
+}
+
+.contact-details-container-left > i {
+  font-size: 20px;
+}
+
+.footer-social-icon-container > h3 {
+  margin-bottom: 3%;
+  color: var(--white);
+  font-size: 25px;
+  font-weight: 500;
+}
+.footer-social-icon-container > div {
+  gap: 10px;
+}
+
+.footer-social-icon-container > div > div {
+  background-color: #00ffff61;
+  border-radius: 3px;
+  padding: 6px 10px;
+}
+
+.footer-social-icon-container > div > div > a {
+}
+
+.footer-social-icon-container > div > div > a > i {
+  font-size: 22px;
+  color: var(--white);
+}
+
+.footer-bottom-txt {
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid var(--white);
+  color: var(--white);
+}

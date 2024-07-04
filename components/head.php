@@ -34,3 +34,20 @@
 
 <!-- component card css -->
 <link href="<?= get_assets() ?>css/components/card.css" rel="stylesheet" type="text/css" />
+
+<!-- component card css -->
+<link href="<?= get_assets() ?>css/components/cta.css" rel="stylesheet" type="text/css" />
+
+
+<!-- component card css -->
+<link href="<?= get_assets() ?>css/components/video-gallery.css" rel="stylesheet" type="text/css" />
+
+<!-- component card css -->
+<link href="<?= get_assets() ?>css/components/blogs-list.css" rel="stylesheet" type="text/css" />
+
+<!-- component card css -->
+<link href="<?= get_assets() ?>css/components/faq's.css" rel="stylesheet" type="text/css" />
+
+
+<!-- component card css -->
+<link href="<?= get_assets() ?>css/components/footer.css" rel="stylesheet" type="text/css" />

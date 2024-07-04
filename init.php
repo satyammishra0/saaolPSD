@@ -35,6 +35,11 @@ define("RIGHT_SIDEBAR", $include_ui_path . "right-sidebar.php");
 define("TOPBAR", $include_ui_path . "topbar.php");
 define("NUMBER_SECTION", $include_ui_path . "numbers-section.php");
 define("CARD", $include_ui_path . "card.php");
+define("CTA", $include_ui_path . "cta.php");
+define("VIDEO_GALLERY", $include_ui_path . "video-gallery.php");
+define("BLOG_LIST", $include_ui_path . "blogs-list.php");
+define("FAQS", $include_ui_path . "faq's.php");
+
 
 
 define("MENU", $include_ui_path . "menu.php");

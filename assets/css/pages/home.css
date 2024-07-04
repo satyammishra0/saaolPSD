@@ -95,39 +95,102 @@
 /* About us section css */
 /* ------------------------------------ */
 
-.eecp-treatment {
+.eecp-treatments {
   background-image: url(../../images/psd/EECP-treatment-machine-shadow.png);
-  padding: 5% 7%;
+  /* padding: 5% 7%; */
   position: relative;
+  z-index: 1;
 }
 
-.blue-layer {
-  position: absolute;
+.blue-layers {
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-
   padding: 5% 7%;
 }
 
-.eecp-treatment-content .gradient-div {
+.eecp-treatment-contents .gradient-div {
   margin: 1% 0;
 }
 
-.eecp-treatment-content .home-heading {
+.eecp-treatment-contents .home-heading {
   color: var(--white);
 }
 
-.eecp-treatment-content > p {
+.eecp-treatment-contents > p {
   margin: 5% 0;
   text-align: justify;
   color: var(--white);
 }
 
-.eecp-treatment-image > img {
+.eecp-treatment-images > img {
   border-radius: 3px;
+}
+
+/* ------------------------------------ */
+/* patient says section css */
+/* ------------------------------------ */
+.patient-says {
+  position: relative;
+  padding: 5% 7%;
+}
+
+.patient-says-first {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.patient-says-first .gradient-div {
+  margin: 1% 0;
+}
+
+.treatment-card-parent {
+  padding: 3% 0;
+}
+
+/* ------------------------------------ */
+/* why choose us section css */
+/* ------------------------------------ */
+.why-choose {
+  padding: 5% 7%;
+}
+
+.why-choose .patient-says-first > p {
+  color: var(--primary-blue-colour);
+  text-align: center;
+  line-height: 1.8;
+}
+
+.why-choose-conatiner {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%;
+  margin-top: 5%;
+}
+
+.why-choose-conatiner-card {
+  padding: 10% 5%;
+  margin-bottom: 15%;
+  position: relative;
+}
+
+.why-choose-img-circle {
+  border: 1px solid var(--white);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.why-choose-img-circle > img {
+  height: 60px;
+}
+
+.why-choose-conatiner-card > p {
+  margin: 5% 0;
+  color: var(--white);
 }

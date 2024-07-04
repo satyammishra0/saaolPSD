@@ -29,3 +29,5 @@
         });
     });
 </script>
+
+<script src="<?= get_js() ?>components/number_section.js"></script>

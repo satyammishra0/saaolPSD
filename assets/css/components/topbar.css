@@ -1,0 +1,42 @@
+/*  */
+
+.contact-info {
+  gap: 15px;
+}
+
+.right {
+  gap: 15px;
+}
+
+.links-container > a {
+  color: var(--white);
+  font-size: 16px;
+  line-height: 2.5;
+}
+
+.links-container > a > i {
+  color: var(--white);
+  font-size: 18px;
+  line-height: 2.5;
+}
+
+.social-icons > a {
+  color: var(--white);
+  font-size: 16px;
+  line-height: 2.5;
+}
+
+.language-select > select {
+  margin-top: 6px;
+  font-size: 16px;
+}
+
+.social-icons {
+  gap: 10px;
+}
+
+.social-icons > a > i {
+  color: var(--white);
+  font-size: 18px;
+  line-height: 2.5;
+}

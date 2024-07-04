@@ -36,41 +36,22 @@ $APP_DOMAIN = preg_replace('#/$#', '', $APP_DOMAIN);
 define('DOMAIN', $APP_DOMAIN);
 
 
-
 // case 0 for local host work
 // case 1 for production
 
 if (mode == 1) {
-
-    // Mysqli Db 
-    // $DB_HOST = "localhost";
-    // $DB_USER = "u841070527";
-    // $DB_PASS = "G1*j!t~Q^A&g";
-    // $DB_NAME = "u841070527_autoshipping";
     $Mdb_username = 'saaolwfghrtsd_crm_user';
     $Mdb_password = 'Mdh.%;KMqDWF';
     $Mdb_name = 'saaolwfghrtsd_crm';
     $Mdb_host = 'localhost';
     $DB_Prefix = "tbl_";
-
-
-    // $img_url = "//dashboard.rapidautoshipping.com/assets/images/blog/";
-    // 
-    #
-    //
 } else {
 
-    #
-    // edit this details based on your database info and domain info
-    #
-    // database info
     $Mdb_username = 'root';
     $Mdb_password = '';
     $Mdb_name = 'saaol_crm_live';
     $Mdb_host = 'localhost';
     $DB_Prefix = "tbl_";
-
-    // $img_url = get_img();
 }
 
 define('DB_DRIVER', 'mysql');
@@ -112,7 +93,7 @@ $sqlList = "SELECT tss_value FROM " . DB_PREFIX . "site_settings WHERE tss_param
 $qryList = $DB->prepare($sqlList);
 $qryList->execute();
 $row = $qryList->fetch();
-$Site_Url =  $row['tss_value'];
+$Site_Url =  'http://localhost/saaol/saaol-psd/';
 
 $Main_Site_Url =  $Site_Url;
 

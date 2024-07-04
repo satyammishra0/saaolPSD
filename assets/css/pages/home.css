@@ -1,0 +1,133 @@
+.home-first-section {
+  padding: 3% 7% 0;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5%;
+}
+
+.home-first-left > img {
+  height: 100%;
+  width: 100%;
+}
+
+.home-first-left {
+  color: var(--white);
+  line-height: 1.4;
+}
+
+.home-first-right {
+  margin-top: 5%;
+}
+
+.home-first-right > p {
+  color: var(--white);
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+.home-first-treatment-section {
+  margin-top: 5%;
+}
+
+.home-first-treatment-section > h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.first-treatment-card {
+  padding: 15px 25px;
+  grid-template-columns: 30% 1fr;
+  gap: 8%;
+}
+
+.first-treatment-card {
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: var(--white);
+  color: var(--primary-blue-colour);
+}
+
+.first-treatment-card-rigth {
+  font-weight: 500;
+}
+
+/* ------------------------------------ */
+/* About us section css */
+/* ------------------------------------ */
+
+.about-us {
+  padding: 5% 7%;
+}
+
+.about-us-content .gradient-div {
+  margin: 1% 0;
+}
+
+.about-us-content > p {
+  margin: 5% 0;
+  text-align: justify;
+  color: var(--paragraph-font-color);
+}
+
+.about-us-image > img {
+  border-radius: 3px;
+  border: 2px solid var(--primary-blue-colour);
+}
+
+/* ------------------------------------ */
+/* Treatment section css */
+/* ------------------------------------ */
+.treatment-first {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.treatment-first .gradient-div {
+  margin: 1% 0;
+}
+
+.treatment-card-parent {
+  padding: 3% 0;
+}
+
+/* ------------------------------------ */
+/* About us section css */
+/* ------------------------------------ */
+
+.eecp-treatment {
+  background-image: url(../../images/psd/EECP-treatment-machine-shadow.png);
+  padding: 5% 7%;
+  position: relative;
+}
+
+.blue-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  padding: 5% 7%;
+}
+
+.eecp-treatment-content .gradient-div {
+  margin: 1% 0;
+}
+
+.eecp-treatment-content .home-heading {
+  color: var(--white);
+}
+
+.eecp-treatment-content > p {
+  margin: 5% 0;
+  text-align: justify;
+  color: var(--white);
+}
+
+.eecp-treatment-image > img {
+  border-radius: 3px;
+}

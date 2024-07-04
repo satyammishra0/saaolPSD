@@ -2,72 +2,35 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 <!-- App favicon -->
 <link rel="shortcut icon" href="<?= get_assets() ?>images/favicon-2.ico">
-<!-- Bootstrap Css -->
-<link href="<?= get_assets() ?>css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
-<!-- Icons Css -->
-<link href="<?= get_assets() ?>css/icons.min.css" rel="stylesheet" type="text/css" />
-<!-- App Css-->
-<link href="<?= get_assets() ?>css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
-<!--Datatable -->
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.1.1/css/buttons.dataTables.min.css">
 
-<!-- flatpicker for calendar-->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<!-- utility Css -->
+<link href="<?= get_assets() ?>css/utility.css" rel="stylesheet" type="text/css" />
 
-<!-- Date Range Picker CSS -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+<!-- global Css -->
+<link href="<?= get_assets() ?>css/global.css" rel="stylesheet" type="text/css" />
 
-<style>
-    table.dataTable thead th,
-    table.dataTable thead td {
-        padding: 10px 12px;
-    }
+<!-- Boxicons sript -->
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+<!-- Topbar css -->
+<link href="<?= get_assets() ?>css/components/topbar.css" rel="stylesheet" type="text/css" />
 
-    .loader-container {
-        position: fixed;
-        z-index: 9999;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgb(0 0 0 / 70%);
-        display: none;
-        justify-content: center;
-        align-items: center;
-    }
+<!-- Header css -->
+<link href="<?= get_assets() ?>css/components/header.css" rel="stylesheet" type="text/css" />
 
-    .loader {
-        width: 40px;
-        height: 40px;
-        --c: no-repeat linear-gradient(#3980c0 0 0);
-        background: var(--c), var(--c), var(--c), var(--c);
-        background-size: 21px 21px;
-        animation: l5 1.5s infinite cubic-bezier(0.3, 1, 0, 1);
-    }
+<!-- Home css -->
+<link href="<?= get_assets() ?>css/pages/home.css" rel="stylesheet" type="text/css" />
 
-    @keyframes l5 {
-        0% {
-            background-position: 0 0, 100% 0, 100% 100%, 0 100%
-        }
+<!-- component number section css -->
+<link href="<?= get_assets() ?>css/components/numbers-section.css" rel="stylesheet" type="text/css" />
 
-        33% {
-            background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-            width: 60px;
-            height: 60px
-        }
-
-        66% {
-            background-position: 100% 0, 100% 100%, 0 100%, 0 0;
-            width: 60px;
-            height: 60px
-        }
-
-        100% {
-            background-position: 100% 0, 100% 100%, 0 100%, 0 0
-        }
-    }
-</style>
+<!-- component card css -->
+<link href="<?= get_assets() ?>css/components/card.css" rel="stylesheet" type="text/css" />

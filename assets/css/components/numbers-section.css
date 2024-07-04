@@ -1,0 +1,17 @@
+.numbers-parent {
+  background-color: #ebebfe;
+}
+
+.number-card {
+  padding: 10px 0;
+  color: var(--primary-blue-colour);
+}
+
+.number-card > h3 {
+  font-size: 45px;
+}
+
+.number-card > p {
+  font-size: 18px;
+  font-weight: 400;
+}

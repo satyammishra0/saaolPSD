@@ -210,4 +210,9 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 0;
   }
+
+  .main-button {
+    padding: 0px 13px;
+    line-height: 1.7;
+  }
 }

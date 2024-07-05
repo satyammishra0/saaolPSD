@@ -1,8 +1,8 @@
-function toggleNavbar() {
+function toggleNavbarfn() {
   var x = document.getElementById("navbar");
-  if (x.className === "navbar") {
-    x.className += " responsive";
+  if (x.classList.contains("show")) {
+    x.classList.remove("show");
   } else {
-    x.className = "navbar";
+    x.classList.add("show");
   }
 }

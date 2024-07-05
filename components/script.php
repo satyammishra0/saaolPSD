@@ -41,3 +41,5 @@
 </script>
 
 <script src="<?= get_js() ?>components/number_section.js"></script>
+
+<script src="<?= get_js() ?>header.js"></script>

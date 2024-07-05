@@ -54,10 +54,17 @@
 }
 
 .blog-list-card-content > h3 {
-  color: var(--black);
+  color: var(--paragraph-font-color);
   margin: 4% 0;
 }
 
-.blog-list-graphics-left {
-  color: var(--black-80);
+.blog-list-graphics-left > p {
+  color: var(--paragraph-font-color);
+  font-size: 13px;
+}
+
+@media screen and (max-width: 700px) {
+  .blog-list-cards-parent {
+    margin-bottom: 5%;
+  }
 }

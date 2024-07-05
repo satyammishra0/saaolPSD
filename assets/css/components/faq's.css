@@ -40,12 +40,20 @@
 }
 
 .faq-answer {
-  display: none;
-  padding: 10px 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 0;
   border-left: 6px solid var(--primary-blue-colour);
   padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out,
+    opacity 0.5s ease-out;
 }
-
 .faq-item.active .faq-answer {
-  display: block;
+  opacity: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

@@ -14,9 +14,10 @@
   line-height: 2.5;
 }
 
-.links-container > a > i {
+.links-container > i {
   color: var(--white);
-  font-size: 18px;
+  font-size: 22px;
+  margin-right: 5px;
   line-height: 2.5;
 }
 
@@ -35,8 +36,8 @@
   gap: 10px;
 }
 
-.social-icons > a > i {
+.social-icons > p > a > i {
   color: var(--white);
-  font-size: 18px;
+  font-size: 22px;
   line-height: 2.5;
 }

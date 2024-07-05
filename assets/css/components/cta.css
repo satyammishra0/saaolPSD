@@ -34,3 +34,16 @@
   margin: 0;
   color: yellow;
 }
+
+@media screen and (max-width: 700px) {
+  .cta-content h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .cta-content h1 span {
+    font-size: 40px;
+    margin: 0;
+    color: yellow;
+  }
+}

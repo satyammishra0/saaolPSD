@@ -4,10 +4,12 @@ include_once HEAD_TOP;
 
 <head>
 
-    <title>
-        <?php echo "Dashboard" ?> | SAAOL - Admin & Dashboard Template</title>
-
+    <title><?php echo "Saaol home page" ?> | SAAOL </title>
     <?php include_once HEAD; ?>
+
+    <!-- Home css -->
+    <link href="<?= get_assets() ?>css/pages/home.css" rel="stylesheet" type="text/css" />
+
 
 </head>
 

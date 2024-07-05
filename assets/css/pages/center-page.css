@@ -1,0 +1,71 @@
+.states-section {
+  padding: 5% 7%;
+  padding-bottom: 0;
+}
+
+.states-section-final {
+  padding-bottom: 5%;
+}
+
+.states-section .grid {
+  grid-gap: 2%;
+}
+
+.states-heading .gradient-line {
+  margin-top: 10px;
+}
+
+.states-card-conatiner {
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 5%;
+}
+
+.states-card {
+  border-radius: 5px;
+}
+
+.states-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.states-img a {
+  display: block;
+  position: relative;
+}
+
+.states-card > div > a > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  transition: opacity 0.3s ease;
+}
+
+.states-card-overlay {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgb(2 144 148 / 44%) 0%,
+    rgb(0 172 177 / 39%) 100%
+  );
+  transition: top 0.3s ease; /* Smooth transition for the overlay */
+}
+
+.states-img:hover .states-card-overlay {
+  top: 0;
+}
+
+.states-card > a {
+  color: var(--primary-blue-colour);
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.states-card > a:hover {
+  color: #035456;
+}

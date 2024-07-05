@@ -26,9 +26,6 @@
 <!-- Header css -->
 <link href="<?= get_assets() ?>css/components/header.css" rel="stylesheet" type="text/css" />
 
-<!-- Home css -->
-<link href="<?= get_assets() ?>css/pages/home.css" rel="stylesheet" type="text/css" />
-
 <!-- component number section css -->
 <link href="<?= get_assets() ?>css/components/numbers-section.css" rel="stylesheet" type="text/css" />
 

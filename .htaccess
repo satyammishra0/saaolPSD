@@ -8,6 +8,9 @@ ErrorDocument 403 https://erp.saaol.com/404
 ReWriteRule ^$  pages/index.php [NC,L]
 ReWriteRule ^404$  pages/404.php [NC,L]
 
+ReWriteRule ^centers([/]?)$ pages/center-page.php [NC,L]
+
+
 
 # Company Reviews Start
 

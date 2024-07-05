@@ -27,7 +27,7 @@
                     <i class='bx bxs-map'></i>
                 </div>
                 <div class="contact-details-container-rigth">
-                    <b>Head office:</b>Farmno 30-31 saaol house jaunapur New Delhi Delhi 110047
+                    <b>Head office:</b> Farmno 30-31 saaol house jaunapur New Delhi Delhi 110047
                 </div>
             </div>
             <div class="contact-details-container grid">
@@ -35,7 +35,7 @@
                     <i class='bx bxs-map'></i>
                 </div>
                 <div class="contact-details-container-rigth">
-                    <b>Head office:</b>Farmno 30-31 saaol house jaunapur New Delhi Delhi 110047
+                    <b>Head office:</b> Farmno 30-31 saaol house jaunapur New Delhi Delhi 110047
                 </div>
             </div>
             <div class="contact-details-container grid">
@@ -43,7 +43,7 @@
                     <i class='bx bxs-map'></i>
                 </div>
                 <div class="contact-details-container-rigth">
-                    <b>Head office:</b>Farmno 30-31 saaol house jaunapur New Delhi Delhi 110047
+                    <b>Head office:</b> Farmno 30-31 saaol house jaunapur New Delhi Delhi 110047
                 </div>
             </div>
             <div class="contact-details-container grid">
@@ -51,7 +51,7 @@
                     <i class='bx bxs-map'></i>
                 </div>
                 <div class="contact-details-container-rigth">
-                    <b>Head office:</b>Farmno 30-31 saaol house jaunapur New Delhi Delhi 110047
+                    <b>Head office:</b> Farmno 30-31 saaol house jaunapur New Delhi Delhi 110047
                 </div>
             </div>
             <div class="footer-social-icon-container ">

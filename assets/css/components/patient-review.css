@@ -1,0 +1,72 @@
+/* Testimonial css */
+
+.testimonial-parent-grid {
+  grid-template-columns: 35% 1fr;
+  grid-gap: 5%;
+  position: relative;
+}
+
+.testimonial-rigth > img {
+  height: 100%;
+  width: 100%;
+}
+
+.slider-container {
+  position: absolute;
+  top: 18%;
+  left: 10%;
+}
+
+.review-slider-parent {
+  width: 60%;
+  margin-top: 5%;
+  border: 1px solid #eee;
+  padding: 2%;
+  border-radius: 8px;
+  background-color: var(--white);
+}
+
+.commas {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: var(--primary-blue-colour);
+  color: var(--white);
+}
+
+.commas > i {
+  font-size: 28px;
+}
+
+.slider-buttons > button {
+  font-size: 22px;
+  border: 1px solid var(--black);
+  outline: none;
+  padding: 0 10px;
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.slider-content {
+  margin: 5% 0;
+  color: var(--paragraph-font-color);
+}
+
+.slider-user-description {
+  grid-template-columns: 15% 1fr;
+  gap: 2%;
+}
+
+.slider-user-profile > img {
+  width: 100px;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.slider-user-details > p {
+  margin-bottom: 1%;
+}
+
+.slider-user-details > p > i {
+  color: yellow;
+}

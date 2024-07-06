@@ -153,10 +153,11 @@ include_once HEAD_TOP;
     <!-- ============================================================== -->
 
     <section class="patient-says">
-        <div class="patient-says-first flex ">
-            <h2 class="home-heading">Patient Say's</h2>
-            <div class="gradient-line gradient-div"></div>
-        </div>
+
+        <!-- ============================================================== -->
+        <!-- Numbers section -->
+        <!-- ============================================================== -->
+        <?php include_once PATIENT_REVIEW; ?>
     </section>
 
 

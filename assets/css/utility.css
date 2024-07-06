@@ -87,10 +87,17 @@
   background-color: var(--white);
 }
 
+.main-button > a {
+  color: var(--primary-blue-colour);
+}
+
 .main-button:hover {
   color: var(--white);
   background-color: var(--primary-blue-colour);
   border: 2px solid var(--white);
+}
+.main-button:hover a {
+  color: var(--white);
 }
 
 .section-padding {

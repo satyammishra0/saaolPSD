@@ -11,7 +11,7 @@
         </div>
         <div class="right flex">
             <button class="main-button">
-                Our Center
+                <a href="https://saaol.com/all-centers-location/"> Our Center</a>
             </button>
             <a href="javascript:void(0);" class="icon" onclick="toggleNavbarfn()">&#9776;</a>
         </div>
@@ -20,34 +20,41 @@
     <!-- Second header with all dropdowns -->
     <div class="navbar section-padding" id="navbar">
         <a href="javascript:void(0);" class="close-icon" onclick="toggleNavbarfn()">&times;</a>
-        <a class="ease-transition" href="#home">Home</a>
+        <a class="ease-transition" href="https://saaol.com/">Home</a>
         <div class="dropdown">
-            <a class="ease-transition" href="#about" class="dropbtn">About <span><i class='bx bxs-down-arrow'></i></span></a>
+            <a class="ease-transition" href="https://saaol.com/" class="dropbtn">About <span><i class='bx bxs-down-arrow'></i></span></a>
             <div class="dropdown-content">
-                <a class="ease-transition" href="#">Service 1</a>
-                <a class="ease-transition" href="#">Service 2</a>
-                <a class="ease-transition" href="#">Service 3</a>
+                <a class="ease-transition" href="https://saaol.com/about">About us</a>
+                <a class="ease-transition" href="https://saaol.com/about-dr-bimal">About Dr. Bimal</a>
+                <a class="ease-transition" href="https://saaol.com/patients-journey"> Patient Journey</a>
+                <a class="ease-transition" href="https://saaol.com/live-webinar/">SAAOL Webinar</a>
+                <a class="ease-transition" href="https://saaol.com/instruction-for-patients">Instructions for patient</a>
+
             </div>
         </div>
         <div class="dropdown">
-            <a class="ease-transition" href="#services" class="dropbtn">Heart Health <span><i class='bx bxs-down-arrow'></i></span></a>
+            <a class="ease-transition" href="https://saaol.com/heart-health" class="dropbtn">Heart Health <span><i class='bx bxs-down-arrow'></i></span></a>
             <div class="dropdown-content">
-                <a class="ease-transition" href="#">Service 1</a>
-                <a class="ease-transition" href="#">Service 2</a>
-                <a class="ease-transition" href="#">Service 3</a>
+                <a class="ease-transition" href="https://saaol.com/assess-risk">Access Risk</a>
+                <a class="ease-transition" href="https://saaol.com/know-your-heart">Know Your Heart</a>
+                <a class="ease-transition" href="https://saaol.com/causes">Causes</a>
+                <a class="ease-transition" href="https://saaol.com/blog/">Blogs</a>
+                <a class="ease-transition" href="https://saaol.com/books">Books</a>
+                <a class="ease-transition" href="https://saaol.com/emagzine/">Emagzine</a>
             </div>
         </div>
         <div class="dropdown">
-            <a class="ease-transition" href="#about" class="dropbtn">Treatments <span><i class='bx bxs-down-arrow'></i></span></a>
+            <a class="ease-transition" href="https://saaol.com/treatment" class="dropbtn">Treatments <span><i class='bx bxs-down-arrow'></i></span></a>
             <div class="dropdown-content">
-                <a class="ease-transition" href="#">Team</a>
-                <a class="ease-transition" href="#">Careers</a>
-                <a class="ease-transition" href="#">History</a>
+                <a class="ease-transition" href="https://saaol.com/zero-oil-cooking">Zero oil cooking</a>
+                <a class="ease-transition" href="https://saaol.com/eecp-treatment">EECP Treatments</a>
+                <a class="ease-transition" href="https://saaol.com/life-style">Life Style</a>
+                <a class="ease-transition" href="https://saaol.com/saaol-detox">SAAOL Detox</a>
             </div>
         </div>
-        <a class="ease-transition" href="#home">Blog</a>
-        <a class="ease-transition" href="#home">Career</a>
-        <a class="ease-transition" href="#home">Testimonial</a>
-        <a class="ease-transition" href="#home">E-magzine</a>
+        <a class="ease-transition" href="https://saaol.com/blog">Blog</a>
+        <a class="ease-transition" href="https://saaol.com/career">Career</a>
+        <a class="ease-transition" href="https://saaol.com/patients-journey">Testimonial</a>
+        <a class="ease-transition" href="https://saaol.com/emagzine/">E-magzine</a>
     </div>
 </div>

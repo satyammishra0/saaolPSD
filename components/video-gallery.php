@@ -19,6 +19,6 @@
          </div>
      </div>
      <div class="btn grid grid-center">
-         <button class="main-button">View all</button>
+         <button class="main-button"><a href="https://www.youtube.com/@SAAOLHeartCare">View all</a></button>
      </div>
  </section>

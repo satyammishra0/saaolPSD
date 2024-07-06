@@ -84,6 +84,6 @@
         </div>
     </div>
     <div class="footer-bottom-txt">
-        <p>Copyright c all rgiths reserved by saaol</p>
+        <p>Copyright © 2024, SAAOL – All Rights Reserved.</p>
     </div>
 </footer>

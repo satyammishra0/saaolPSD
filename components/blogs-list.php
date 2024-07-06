@@ -13,14 +13,16 @@
                 <img src="<?= get_img() ?>/psd/blog-1.jpg" alt="our blogs">
                 <div class="blog-list-card-content">
                     <h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque quaerat dicta similique quis quidem nam nisi consequatur iusto impedit consectetur, dolorem optio voluptate est eum vero temporibus sed error!
+                        <a href="https://saaol.com/blog/empowering-hearts-eecp-therapy-impact-on-heart-patients/">
+                            Empowering Hearts: EECP Therapy Impact on Heart Patients
+                        </a>
                     </h3>
                     <div class="blog-list-graphics flex flex-center-between">
                         <div class="blog-list-graphics-left">
-                            <p><i class='bx bxs-calendar'></i>May 13, 2024</p>
+                            <p><i class='bx bxs-calendar'></i>June 11, 2024</p>
                         </div>
                         <div class="blog-list-graphics-left">
-                            <p><i class='bx bxs-chat'></i>48 comments</p>
+                            <p><i class='bx bxs-chat'></i>11 Minutes</p>
                         </div>
                     </div>
                 </div>
@@ -30,14 +32,17 @@
                 <img src="<?= get_img() ?>/psd/blog-2.jpg" alt="our blogs">
                 <div class="blog-list-card-content">
                     <h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque quaerat dicta similique quis quidem nam nisi consequatur iusto impedit consectetur, dolorem optio voluptate est eum vero temporibus sed error!
+                        <a href="https://saaol.com/blog/exploring-the-phases-of-heart-disease-heart-failure-and-prevention/">
+
+                            Exploring the Phases of Heart Disease: Heart Failure and Prevention
+                        </a>
                     </h3>
                     <div class="blog-list-graphics flex flex-center-between">
                         <div class="blog-list-graphics-left">
-                            <p><i class='bx bxs-calendar'></i>May 13, 2024</p>
+                            <p><i class='bx bxs-calendar'></i>June 03, 2023</p>
                         </div>
                         <div class="blog-list-graphics-left">
-                            <p><i class='bx bxs-chat'></i>48 comments</p>
+                            <p><i class='bx bxs-chat'></i>5 Minutes</p>
                         </div>
                     </div>
                 </div>
@@ -47,15 +52,14 @@
             <div class="blog-list-cards-parent">
                 <img src="<?= get_img() ?>/psd/blog-3.jpg" alt="our blogs">
                 <div class="blog-list-card-content">
-                    <h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eaque quaerat dicta similique quis quidem nam nisi consequatur iusto impedit consectetur, dolorem optio voluptate est eum vero temporibus sed error!
-                    </h3>
+                    <h3><a href="https://saaol.com/blog/extraordinary-benefits-of-nurturing-a-balanced-and-healthy-lifestyle-for-heart-health/">
+                            Extraordinary Benefits of Nurturing a Balanced and Healthy Lifestyle for Heart Health</a> </h3>
                     <div class="blog-list-graphics flex flex-center-between">
                         <div class="blog-list-graphics-left">
-                            <p><i class='bx bxs-calendar'></i>May 13, 2024</p>
+                            <p><i class='bx bxs-calendar'></i>May 03, 2024</p>
                         </div>
                         <div class="blog-list-graphics-left">
-                            <p><i class='bx bxs-chat'></i>48 comments</p>
+                            <p><i class='bx bxs-chat'></i>05 Minutes</p>
                         </div>
                     </div>
                 </div>

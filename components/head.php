@@ -54,3 +54,8 @@
 
 <!-- glider Css -->
 <!-- <link rel="stylesheet" href="<?= get_assets() ?>css/components/glider.css" /> -->
+
+<!-- Google translate scripts -->
+<meta name="google-translate-customization" content="...">
+</meta>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>

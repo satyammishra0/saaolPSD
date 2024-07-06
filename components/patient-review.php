@@ -30,15 +30,17 @@
             <div class="glider-contain">
                 <div class="glider">
                     <div class="slider-content">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, error, nostrum vel pariatur obcaecati recusandae veniam impedit enim maiores optio ea facilis nemo ad illum provident </p>
+                        <p>
+                            Saaol science.I have been following on YouTube since long time. Good and Very useful information i got regarding heart patients. I have also seen program on obseity and weight loss and following the same in my personal life and it helps a lot. Good place for heart patients to get right treatment. I also like program Cooking without oil. Nice program. Good keep it up
+                        </p>
                     </div>
                     <div class="slider-user-description grid">
                         <div class="slider-user-profile grid grid-center">
                             <img src="<?= get_img() ?>/psd/user-img.jpg" alt="Patient image">
                         </div>
                         <div class="slider-user-details">
-                            <p><b>Priya Dissusasa</b></p>
-                            <p>Delas, California</p>
+                            <p><b>Devendra Deepak</b></p>
+                            <p>Rohtak, Haryana</p>
                             <p class="flex ">
                                 <i class='bx bxs-star'></i>
                                 <i class='bx bxs-star'></i>
@@ -55,21 +57,3 @@
         </div>
     </div>
 </div>
-
-
-<!-- <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
-    </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
-</div> -->

@@ -27,15 +27,17 @@
         <div class="language-select">
             <select id="language" name="language">
                 <option value="en" default>English</option>
-                <p>
-                    <option value="hnd">Hindi</option>
+                <option value="hi">Hindi</option>
             </select>
         </div>
+
+        <div id="google_translate_element" style="display:none;"></div>
+
         <div class="social-icons flex flex-total-center">
-            <p> <a href="https://facebook.com" target="_blank"><i class='bx bxl-facebook-circle'></i></a></p>
-            <p> <a href="https://twitter.com" target="_blank"><i class='bx bxl-twitter'></i></a></p>
-            <p> <a href="https://youtube.com" target="_blank"><i class='bx bxl-youtube'></i></a></p>
-            <p> <a href="https://linkedin.com" target="_blank"><i class='bx bxl-linkedin-square'></i></a></p>
+            <p> <a href="https://www.facebook.com/saaol" target="_blank"><i class='bx bxl-facebook-circle'></i></a></p>
+            <p> <a href="https://x.com/i/flow/login?redirect_after_login=%2Fdrsaaol" target="_blank"><i class='bx bxl-twitter'></i></a></p>
+            <p> <a href="https://www.youtube.com/c/saaolheartcare" target="_blank"><i class='bx bxl-youtube'></i></a></p>
+            <p> <a href="https://www.linkedin.com/company/saaol/" target="_blank"><i class='bx bxl-linkedin-square'></i></a></p>
         </div>
 
     </div>

@@ -13,7 +13,7 @@ include_once HEAD_TOP;
 
 </head>
 
-<body>
+<body id="google_translate_element">
     <!-- ============================================================== -->
     <!-- TOP BAR Of the page -->
     <!-- ============================================================== -->
@@ -27,9 +27,9 @@ include_once HEAD_TOP;
     <!-- ============================================================== -->
     <!-- First hero section of the page -->
     <!-- ============================================================== -->
-    <section class="home-first-section section-padding gradient-div grid">
-        <div class="home-first-left">
-            <img src="<?= get_img() ?>/psd/Bimal-sir-img.png" alt="Bimal sir main img">
+    <section class="home-first-section gradient-div grid">
+        <div class="home-first-left grid grid-center">
+            <img src="<?= get_img() ?>/psd/Bimal-sir-img.png" id="home_slider_image" alt="Bimal sir main img">
         </div>
         <div class="home-first-right">
             <p>SAAOL has poineered in Non-invasive Heart treatment and over the years deevloper a holistic, comprehensive, affordable and substainable treatments programs for patients.</p>
@@ -72,7 +72,7 @@ include_once HEAD_TOP;
             <h2 class="home-heading">About us</h2>
             <div class="gradient-line gradient-div"></div>
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore dicta voluptas similique quam quo pariatur fugiat perspiciatis? Libero autem explicabo, maiores architecto commodi officia non vitae quaerat, ducimus veniam, sequi quisquam id temporibus ratione impedit earum facere voluptatum. Sunt id totam repellendus impedit quibusdam at cum voluptas rem temporibus eveniet, nulla reprehenderit consectetur cupiditate beatae autem qui. Sed, magni dolor, sit nulla atque eius commodi earum libero deserunt neque alias totam quos explicabo! Corporis saepe voluptatem numquam necessitatibus dolores reprehenderit! Nulla mollitia ad blanditiis error vero tenetur dignissimos amet dolor, numquam doloribus eveniet rem, maiores adipisci beatae in explicabo dicta officia! Harum distinctio sunt iure fuga, laborum suscipit quos dolor rem labore consequatur
+                SAAOL mission is to reduce the mortality rate due to heart disease related deaths and provide holistic heart care treatment and approach through natural bypass therapy, FDA approved non-invasive heart treatment like EECP and lifestyle changes. SAAOL Heart Centers are spread all over India so that people can have access to best heart treatment in India without travelling to Indian cities. Our heart specialists are trained under world renowned cardiologist Dr. Bimal Chhajer MBBS, MD (former AIIMS resident & associate professor). SAAOL ultimate purpose is to provide the best heart treatment and eradicate heart disease related deaths in India and then the world. Motto: Mission Beat Heart Disease.
             </p>
             <button class="main-button ">Know More <span><i class='bx bx-right-arrow-alt'></i></span></button>
         </div>
@@ -95,7 +95,7 @@ include_once HEAD_TOP;
                 $cardImgPath =  get_img() . "psd/our-treatments-heart-yoga.png";
                 $cardImgAlt = "Heart Yoga icon";
                 $cardImgHeading = "Heart Yoga";
-                $cardImgContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic architecto, praesentium ea aperiam autem corrupti distinctio eum nisi similique officiis!";
+                $cardImgContent = "After years of practicing, SAAOL Heart Yoga is a holistic practice to harmonise mind, body, heart and soul for cardiovascular well-being and the best heart treatment. Join us for transformative sessions.";
                 $cardImgBtn = "Know More";
 
                 include CARD;
@@ -106,7 +106,7 @@ include_once HEAD_TOP;
                 $cardImgPath =  get_img() . "psd/our-treatments-zero-oil.png";
                 $cardImgAlt = "Zero oil cooking icon";
                 $cardImgHeading = "Zero oil cooking";
-                $cardImgContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic architecto, praesentium ea aperiam autem corrupti distinctio eum nisi similique officiis!";
+                $cardImgContent = "Our expert nutritionists developed over 1000 Zero-oil cooking recipes. It is the best non-invasive heart treatment approach with heart-healthy culinary finesse";
                 $cardImgBtn = "Know More";
 
                 include CARD;
@@ -117,7 +117,7 @@ include_once HEAD_TOP;
                 $cardImgPath =  get_img() . "psd/our-treatments-lifestyle.png";
                 $cardImgAlt = "Lifestyle icon";
                 $cardImgHeading = "Lifestyle";
-                $cardImgContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic architecto, praesentium ea aperiam autem corrupti distinctio eum nisi similique officiis!";
+                $cardImgContent = "Welcome to the world of SAAOL’s Heart Healthy Lifestyle, your portal to a holistic approach to nurturing your heart’s health. We firmly believe that the path to a heart-healthy existence extends far beyond conventional treatments. ";
                 $cardImgBtn = "Know More";
 
                 include CARD;
@@ -136,7 +136,11 @@ include_once HEAD_TOP;
                 <div class="eecp-treatment-contents">
                     <h2 class="home-heading">eecp-treatment</h2>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore dicta voluptas similique quam quo pariatur fugiat perspiciatis? Libero autem explicabo, maiores architecto commodi officia non vitae quaerat, ducimus veniam, sequi quisquam id temporibus ratione impedit earum facere voluptatum. Sunt id totam repellendus impedit quibusdam at cum voluptas rem temporibus eveniet, nulla reprehenderit consectetur cupiditate beatae autem qui. Sed, magni dolor, sit nulla atque eius commodi earum libero deserunt neque alias totam quos explicabo! Corporis saepe voluptatem numquam necessitatibus dolores reprehenderit! Nulla mollitia ad blanditiis error vero tenetur dignissimos amet dolor, numquam doloribus eveniet rem, maiores adipisci beatae in explicabo dicta officia! Harum distinctio sunt iure fuga, laborum suscipit quos dolor rem labore consequatur
+                        The interesting history of EECP (Enhanced External Counterpulsation) began in the early 1960s China, within the halls of a research laboratory where pioneering minds embarked on a journey to rewrite the narrative of heart health.
+
+                        In this innovative laboratory, EECP treatment became a reality. A unique contraption took place – a set of inflatable cuffs designed to encircle a patient’s legs. These cuffs soon emerged as the unsung heroes of cardiac care. As time went on, EECP developed and realised its extraordinary potential. The cuffs, when synchronised with the natural rhythm of the heart, held the power to perform miracles. EECP cuffs would inflate precisely during the heart’s resting phase, lightening its load, and deflate precisely when the heart contracted, drive through a surge of life-giving blood.
+
+                        Today, the history of EECP treatment stands as one of the most sought after heart treatment that is effective and long lasting. It emerges as the most extraordinary heart disease solutions in the world of surgeries and western medicine. EECP’s invention is an inspiration that is truly life-changing for heart patients seeking the best non-invasive heart treatment solution, forever altering the landscape of heart health.
                     </p>
                     <button class="main-button ">Know More <span><i class='bx bx-right-arrow-alt'></i></span></button>
                 </div>
@@ -168,44 +172,44 @@ include_once HEAD_TOP;
         <div class="patient-says-first flex ">
             <h2 class="home-heading">Why choose us</h2>
             <div class="gradient-line gradient-div"></div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, facere in. Necessitatibus culpa reprehenderit consequatur sapiente libero dolores neque incidunt. Veritatis, nulla magnam dolores asperiores nesciunt ea aliquam aut repellat!</p>
+            <p>Our mission is to improve the world's health through compassionate and affordable care through innovation.</p>
         </div>
         <div class="why-choose-conatiner grid">
             <div class="why-choose-conatiner-card gradient-div grid grid-center">
                 <div class="why-choose-img-circle gradient-div grid-center">
                     <img src="<?= get_img() ?>/psd/WCU-Put the patient first.png" alt="why choose us image">
                 </div>
-                <p class="txt">put the patient first</p>
+                <p class="txt">Put the patient first</p>
             </div>
             <div class="why-choose-conatiner-card gradient-div grid grid-center">
                 <div class="why-choose-img-circle gradient-div grid-center">
                     <img src="<?= get_img() ?>/psd/WCU-Take personal.png" alt="why choose us image">
                 </div>
-                <p class="txt">put the patient first</p>
+                <p class="txt">Take personal ownership</p>
             </div>
             <div class="why-choose-conatiner-card gradient-div grid grid-center">
                 <div class="why-choose-img-circle gradient-div grid-center">
                     <img src="<?= get_img() ?>/psd/WCU-Celebrate the art of.png" alt="why choose us image">
                 </div>
-                <p class="txt">put the patient first</p>
+                <p class="txt">Celebrate the art of medicine</p>
             </div>
             <div class="why-choose-conatiner-card gradient-div grid grid-center">
                 <div class="why-choose-img-circle gradient-div grid-center">
                     <img src="<?= get_img() ?>/psd/WCU-Be fast, but don't hurry.png" alt="why choose us image">
                 </div>
-                <p class="txt">put the patient first</p>
+                <p class="txt">Be Fast, But don't hurry</p>
             </div>
             <div class="why-choose-conatiner-card gradient-div grid grid-center">
                 <div class="why-choose-img-circle gradient-div grid-center">
                     <img src="<?= get_img() ?>/psd/WCU-Always work with.png" alt="why choose us image">
                 </div>
-                <p class="txt">put the patient first</p>
+                <p class="txt">Always work with integrity</p>
             </div>
             <div class="why-choose-conatiner-card gradient-div grid grid-center">
                 <div class="why-choose-img-circle gradient-div grid-center">
                     <img src="<?= get_img() ?>/psd/WCU-Be inquisitive and.png" alt="why choose us image">
                 </div>
-                <p class="txt">put the patient first</p>
+                <p class="txt">Be inquisitive and discover</p>
             </div>
         </div>
     </section>

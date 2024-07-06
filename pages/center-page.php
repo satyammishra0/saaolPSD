@@ -38,7 +38,7 @@ include_once HEAD_TOP;
             <div class="states-card grid grid-center">
                 <div class="states-img">
                     <a href="#">
-                        <img src="<?= get_img() ?>/psd/centers/Delhi-Ncr.png" alt="Delhi NCr image">
+                        <img src="<?= get_img() ?>/psd/centers/Delhi-NCR.png" alt="Delhi NCr image">
                         <div class="states-card-overlay"></div>
                     </a>
                 </div>
@@ -48,7 +48,7 @@ include_once HEAD_TOP;
             <div class="states-card grid grid-center">
                 <div class="states-img">
                     <a href="#">
-                        <img src="<?= get_img() ?>/psd/centers/bangalore.png" alt="Bangalore image">
+                        <img src="<?= get_img() ?>/psd/centers/Bangalore.png" alt="Bangalore image">
                         <div class="states-card-overlay"></div>
                     </a>
                 </div>
@@ -58,7 +58,7 @@ include_once HEAD_TOP;
             <div class="states-card grid grid-center">
                 <div class="states-img">
                     <a href="#">
-                        <img src="<?= get_img() ?>/psd/centers/mumbai.png" alt="Mumbai image">
+                        <img src="<?= get_img() ?>/psd/centers/Mumbai.png" alt="Mumbai image">
                         <div class="states-card-overlay"></div>
                     </a>
                 </div>
@@ -68,7 +68,7 @@ include_once HEAD_TOP;
             <div class="states-card grid grid-center">
                 <div class="states-img">
                     <a href="#">
-                        <img src="<?= get_img() ?>/psd/centers/chennai.png" alt="chennai image">
+                        <img src="<?= get_img() ?>/psd/centers/Chennai.png" alt="chennai image">
                         <div class="states-card-overlay"></div>
                     </a>
                 </div>
@@ -78,7 +78,7 @@ include_once HEAD_TOP;
             <div class="states-card grid grid-center">
                 <div class="states-img">
                     <a href="#">
-                        <img src="<?= get_img() ?>/psd/centers/kolkata.png" alt="kolkata image">
+                        <img src="<?= get_img() ?>/psd/centers/Kolkata.png" alt="kolkata image">
                         <div class="states-card-overlay"></div>
                     </a>
                 </div>
@@ -101,7 +101,7 @@ include_once HEAD_TOP;
             <div class="states-card grid grid-center">
                 <div class="states-img">
                     <a href="#">
-                        <img src="<?= get_img() ?>/psd/centers/assam.png" alt="assam image">
+                        <img src="<?= get_img() ?>/psd/centers/Assam.png" alt="assam image">
                         <div class="states-card-overlay"></div>
                     </a>
                 </div>
@@ -111,7 +111,7 @@ include_once HEAD_TOP;
             <div class="states-card grid grid-center">
                 <div class="states-img">
                     <a href="#">
-                        <img src="<?= get_img() ?>/psd/centers/andhra-pradesh.png" alt="andhra pradesh image">
+                        <img src="<?= get_img() ?>/psd/centers/Andhra-Pradesh.png" alt="andhra pradesh image">
                         <div class="states-card-overlay"></div>
                     </a>
                 </div>
@@ -121,7 +121,7 @@ include_once HEAD_TOP;
             <div class="states-card grid grid-center">
                 <div class="states-img">
                     <a href="#">
-                        <img src="<?= get_img() ?>/psd/centers/bihar.png" alt="bihar image">
+                        <img src="<?= get_img() ?>/psd/centers/Bihar.png" alt="bihar image">
                         <div class="states-card-overlay"></div>
                     </a>
                 </div>
@@ -131,7 +131,7 @@ include_once HEAD_TOP;
             <div class="states-card grid grid-center">
                 <div class="states-img">
                     <a href="#">
-                        <img src="<?= get_img() ?>/psd/centers/chhattisgarh.png" alt="chhattisgarh image">
+                        <img src="<?= get_img() ?>/psd/centers/Chhattisgarh.png" alt="chhattisgarh image">
                         <div class="states-card-overlay"></div>
                     </a>
                 </div>
@@ -141,7 +141,7 @@ include_once HEAD_TOP;
             <div class="states-card grid grid-center">
                 <div class="states-img">
                     <a href="#">
-                        <img src="<?= get_img() ?>/psd/centers/gujarat.png" alt="gujarat image">
+                        <img src="<?= get_img() ?>/psd/centers/Gujarat.png" alt="gujarat image">
                         <div class="states-card-overlay"></div>
                     </a>
                 </div>
@@ -205,7 +205,7 @@ include_once HEAD_TOP;
             <div class="states-card grid grid-center">
                 <div class="states-img">
                     <a href="#">
-                        <img src="<?= get_img() ?>/psd/centers/kerala.png" alt="kerala image">
+                        <img src="<?= get_img() ?>/psd/centers/Kerala.png" alt="kerala image">
                         <div class="states-card-overlay"></div>
                     </a>
                 </div>
@@ -256,7 +256,7 @@ include_once HEAD_TOP;
             <div class="states-card grid grid-center">
                 <div class="states-img">
                     <a href="#">
-                        <img src="<?= get_img() ?>/psd/centers/rajasthan.png" alt="Rajasthan image">
+                        <img src="<?= get_img() ?>/psd/centers/Rajasthan.png" alt="Rajasthan image">
                         <div class="states-card-overlay"></div>
                     </a>
                 </div>
@@ -266,7 +266,7 @@ include_once HEAD_TOP;
             <div class="states-card grid grid-center">
                 <div class="states-img">
                     <a href="#">
-                        <img src="<?= get_img() ?>/psd/centers/tamil-nadu.png" alt="tamil nadu image">
+                        <img src="<?= get_img() ?>/psd/centers/Tamil-Nadu.png" alt="tamil nadu image">
                         <div class="states-card-overlay"></div>
                     </a>
                 </div>
@@ -276,7 +276,7 @@ include_once HEAD_TOP;
             <div class="states-card grid grid-center">
                 <div class="states-img">
                     <a href="#">
-                        <img src="<?= get_img() ?>/psd/centers/telangana.png" alt="Telangana image">
+                        <img src="<?= get_img() ?>/psd/centers/Telangana.png" alt="Telangana image">
                         <div class="states-card-overlay"></div>
                     </a>
                 </div>
@@ -286,7 +286,7 @@ include_once HEAD_TOP;
             <div class="states-card grid grid-center">
                 <div class="states-img">
                     <a href="#">
-                        <img src="<?= get_img() ?>/psd/centers/uttrakhand.png" alt="uttrakhand image">
+                        <img src="<?= get_img() ?>/psd/centers/Uttrakhand.png" alt="uttrakhand image">
                         <div class="states-card-overlay"></div>
                     </a>
                 </div>

@@ -10,7 +10,8 @@
 }
 
 :root {
-  --primary-blue-colour: #029094;
+  --primary-blue-colour: #01adef;
+  /* --primary-blue-colour: #029094; */
   --paragraph-font-color: #727272;
   --black: #000;
   --black-100: #0f0f0f;

@@ -90,42 +90,40 @@ include_once HEAD_TOP;
             <div class="gradient-line gradient-div"></div>
         </div>
         <div class="treatment-card-parent grid grid-3">
-            <div>
-                <?php
-                $cardImgPath =  get_img() . "psd/our-treatments-heart-yoga.png";
-                $cardImgAlt = "Heart Yoga icon";
-                $cardImgHeading = "Heart Yoga";
-                $cardImgContent = "After years of practicing, SAAOL Heart Yoga is a holistic practice to harmonise mind, body, heart and soul for cardiovascular well-being and the best heart treatment. Join us for transformative sessions.";
-                $cardImgBtn = "Know More";
-                $cardLink = "https://saaol.com/life-style";
 
-                include CARD;
-                ?>
-            </div>
-            <div>
-                <?php
-                $cardImgPath =  get_img() . "psd/our-treatments-zero-oil.png";
-                $cardImgAlt = "Zero oil cooking icon";
-                $cardImgHeading = "Zero oil cooking";
-                $cardImgContent = "Our expert nutritionists developed over 1000 Zero-oil cooking recipes. It is the best non-invasive heart treatment approach with heart-healthy culinary finesse";
-                $cardImgBtn = "Know More";
-                $cardLink = "https://saaol.com/zero-oil-cooking/";
+            <?php
+            $cardImgPath =  get_img() . "psd/our-treatments-heart-yoga.png";
+            $cardImgAlt = "Heart Yoga icon";
+            $cardImgHeading = "Heart Yoga";
+            $cardImgContent = "After years of practicing, SAAOL Heart Yoga is a holistic practice to harmonise mind, body, heart and soul for cardiovascular well-being and the best heart treatment. Join us for transformative sessions.";
+            $cardImgBtn = "Know More";
+            $cardLink = "https://saaol.com/life-style";
 
-                include CARD;
-                ?>
-            </div>
-            <div>
-                <?php
-                $cardImgPath =  get_img() . "psd/our-treatments-lifestyle.png";
-                $cardImgAlt = "Lifestyle icon";
-                $cardImgHeading = "Lifestyle";
-                $cardImgContent = "Welcome to the world of SAAOL’s Heart Healthy Lifestyle, your portal to a holistic approach to nurturing your heart’s health. We firmly believe that the path to a heart-healthy existence extends far beyond conventional treatments. ";
-                $cardImgBtn = "Know More";
-                $cardLink = "https://saaol.com/life-system/";
+            include CARD;
+            ?>
 
-                include CARD;
-                ?>
-            </div>
+            <?php
+            $cardImgPath =  get_img() . "psd/our-treatments-zero-oil.png";
+            $cardImgAlt = "Zero oil cooking icon";
+            $cardImgHeading = "Zero oil cooking";
+            $cardImgContent = "Our expert nutritionists developed over 1000 Zero-oil cooking recipes. It is the best non-invasive heart treatment approach with heart-healthy culinary finesse";
+            $cardImgBtn = "Know More";
+            $cardLink = "https://saaol.com/zero-oil-cooking/";
+
+            include CARD;
+            ?>
+
+            <?php
+            $cardImgPath =  get_img() . "psd/our-treatments-lifestyle.png";
+            $cardImgAlt = "Lifestyle icon";
+            $cardImgHeading = "Lifestyle";
+            $cardImgContent = "Welcome to the world of SAAOL’s Heart Healthy Lifestyle, your portal to a holistic approach to nurturing your heart’s health. We firmly believe that the path to a heart-healthy existence extends far beyond conventional treatments. ";
+            $cardImgBtn = "Know More";
+            $cardLink = "https://saaol.com/life-system/";
+
+            include CARD;
+            ?>
+
         </div>
     </section>
 

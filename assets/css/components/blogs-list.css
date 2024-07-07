@@ -76,4 +76,8 @@
   .blog-list-cards-parent {
     margin-bottom: 5%;
   }
+
+  .blog-list-cards-parent > img {
+    height: 100%;
+  }
 }

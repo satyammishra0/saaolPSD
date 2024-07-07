@@ -32,7 +32,7 @@ include_once HEAD_TOP;
             <img src="<?= get_img() ?>/psd/Bimal-sir-img.png" id="home_slider_image" alt="Bimal sir main img">
         </div>
         <div class="home-first-right">
-            <p>SAAOL has poineered in Non-invasive Heart treatment and over the years deevloper a holistic, comprehensive, affordable and substainable treatments programs for patients.</p>
+            <p>SAAOL mission is to reduce the mortality rate due to heart disease related deaths and provide holistic heart care treatment and approach through natural bypass therapy, FDA approved non-invasive heart treatment like EECP and lifestyle changes</p>
             <div class="home-first-treatment-section">
                 <h2>Our Treatments</h2>
                 <div class="first-treatment-card-container grid grid-3">

@@ -1,4 +1,4 @@
-<div class="top-bar flex flex-center-between section-padding gradient-div">
+<div class="top-bar flex flex-center-between gradient-div">
     <div class="left flex">
         <div class="contact-info flex">
             <div class="links-container flex-total-center">
@@ -25,10 +25,10 @@
     </div>
     <div class="right flex flex-total-center">
         <div class="language-select">
-            <select id="language" name="language">
+            <!-- <select id="language" name="language">
                 <option value="en" default>English</option>
                 <option value="hi">Hindi</option>
-            </select>
+            </select> -->
         </div>
 
         <div id="google_translate_element" style="display:none;"></div>

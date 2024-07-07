@@ -27,43 +27,42 @@
                         It is very easy to find the nearest center near to you for this you just need to visit the find nearest page and from there you can check you state and select for nearest center over there and visit for further proccess.
                     </div>
                 </div>
-                <!-- <div class="faq-item">
+                <div class="faq-item">
                     <div class="faq-question">
                         <img src="<?= get_img() ?>/psd/FAQ-icon.png" alt="Bimal sir main img">
-                        <span>Where can I get some?</span>
+                        <span>What is EECP treatment?</span>
                     </div>
                     <div class="faq-answer">
-                        There are many variations of passages of Lorem Ipsum available.
+                        EECP (Enhanced External Counterpulsation) is a non-invasive treatment for heart disease that improves blood flow and cardiovascular health without surgery.
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
                         <img src="<?= get_img() ?>/psd/FAQ-icon.png" alt="Bimal sir main img">
-                        <span>What is Lorem Ipsum?</span>
+                        <span>What are the benefits of Zero Oil Cooking?</span>
                     </div>
                     <div class="faq-answer">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Zero Oil Cooking involves preparing meals without any oil, helping to maintain heart health while ensuring the food remains tasty and nutritious.
                     </div>
                 </div>
                 <div class="faq-item">
                     <div class="faq-question">
                         <img src="<?= get_img() ?>/psd/FAQ-icon.png" alt="Bimal sir main img">
-                        <span>Why do we use it?</span>
+                        <span>Who is Dr. Bimal Chhajer?</span>
                     </div>
                     <div class="faq-answer">
-                        It is a long established fact that a reader will be distracted by the readable content.
+                        Dr. Bimal Chhajer is the founder of SAAOL and a pioneer in non-invasive heart treatment in India, known for his innovative approaches to heart health.
                     </div>
                 </div>
                 <div class="faq-item">
                     <div class="faq-question">
                         <img src="<?= get_img() ?>/psd/FAQ-icon.png" alt="Bimal sir main img">
-                        <span>Where can I get some?</span>
+                        <span>What is the SAAOL Detox program?</span>
                     </div>
                     <div class="faq-answer">
-                        There are many variations of passages of Lorem Ipsum available.
-                    </div>
-                </div> -->
+                        The SAAOL Detox program aims to cleanse the body, improve overall health, and support heart health through natural methods. </div>
+                </div>
             </div>
         </div>
 

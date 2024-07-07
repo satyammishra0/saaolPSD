@@ -23,40 +23,40 @@ function changeImage() {
 // Call changeImage function every 2 seconds
 setInterval(changeImage, 3000);
 
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement(
-    {
-      pageLanguage: "en",
-      includedLanguages: "en,hi",
-      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-    },
-    "google_translate_element"
-  );
-}
+// function googleTranslateElementInit() {
+//   new google.translate.TranslateElement(
+//     {
+//       pageLanguage: "en",
+//       includedLanguages: "en,hi",
+//       layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+//     },
+//     "google_translate_element"
+//   );
+// }
 
-function triggerGoogleTranslate(lang) {
-  const translateSelect = document.querySelector(".goog-te-combo");
-  if (translateSelect) {
-    translateSelect.value = lang;
-    translateSelect.dispatchEvent(new Event("change"));
-  }
-}
+// function triggerGoogleTranslate(lang) {
+//   const translateSelect = document.querySelector(".goog-te-combo");
+//   if (translateSelect) {
+//     translateSelect.value = lang;
+//     translateSelect.dispatchEvent(new Event("change"));
+//   }
+// }
 
-function loadGoogleTranslate() {
-  const script = document.createElement("script");
-  script.type = "text/javascript";
-  script.src =
-    "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-  script.onload = () => {
-    googleTranslateElementInit();
-    document.getElementById("language").addEventListener("change", () => {
-      let lang = document.getElementById("language").value;
-      triggerGoogleTranslate(lang);
-    });
-  };
-  document.body.appendChild(script);
-}
+// function loadGoogleTranslate() {
+//   const script = document.createElement("script");
+//   script.type = "text/javascript";
+//   script.src =
+//     "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+//   script.onload = () => {
+//     googleTranslateElementInit();
+//     document.getElementById("language").addEventListener("change", () => {
+//       let lang = document.getElementById("language").value;
+//       triggerGoogleTranslate(lang);
+//     });
+//   };
+//   document.body.appendChild(script);
+// }
 
-document.addEventListener("DOMContentLoaded", () => {
-  loadGoogleTranslate();
-});
+// document.addEventListener("DOMContentLoaded", () => {
+//   loadGoogleTranslate();
+// });

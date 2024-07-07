@@ -43,22 +43,22 @@
                     <b>Head Office:</b> Shivpuri, Hariyawala Kalan, Dehradun, Uttarakhand 248141
                 </div>
             </div>
-            <!-- <div class="contact-details-container grid">
+            <div class="contact-details-container grid">
                 <div class="contact-details-container-left grid grid-center">
-                    <i class='bx bxs-map'></i>
+                    <i class='bx bxs-phone'></i>
                 </div>
                 <div class="contact-details-container-rigth">
-                    <b>Head office:</b> Farmno 30-31 saaol house jaunapur New Delhi Delhi 110047
+                    <b>Contact Now: </b> 011-44732744, 011-44732745, 011-44732746
                 </div>
             </div>
             <div class="contact-details-container grid">
                 <div class="contact-details-container-left grid grid-center">
-                    <i class='bx bxs-map'></i>
+                    <i class='bx bxs-envelope'></i>
                 </div>
                 <div class="contact-details-container-rigth">
-                    <b>Head office:</b> Farmno 30-31 saaol house jaunapur New Delhi Delhi 110047
+                    <b>Email:</b> info@saaol.com
                 </div>
-            </div> -->
+            </div>
             <div class="footer-social-icon-container ">
                 <h3>Social Media</h3>
                 <div class="flex ">

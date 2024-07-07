@@ -99,6 +99,9 @@
   right: 15px;
   cursor: pointer;
 }
+.book-appointment {
+  display: none;
+}
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
@@ -155,10 +158,15 @@
 
   .header-upper .main-button {
     margin-left: 15px;
+    display: none;
   }
 
   .navbar.show {
     top: 0;
+  }
+
+  .book-appointment {
+    margin-bottom: 20px;
   }
 
   .navbar.show .close-icon {

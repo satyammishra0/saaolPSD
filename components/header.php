@@ -13,6 +13,9 @@
             <button class="main-button">
                 <a href="https://saaol.com/all-centers-location/"> Our Center</a>
             </button>
+            <button class="main-button">
+                <a href="https://saaol.com/book-an-appointment/"> Book an appointment</a>
+            </button>
             <a href="javascript:void(0);" class="icon" onclick="toggleNavbarfn()">&#9776;</a>
         </div>
     </div>
@@ -56,5 +59,11 @@
         <a class="ease-transition" href="https://saaol.com/career">Career</a>
         <a class="ease-transition" href="https://saaol.com/patients-journey">Testimonial</a>
         <a class="ease-transition" href="https://saaol.com/emagzine/">E-magzine</a>
+        <button class="main-button book-appointment">
+            <a href="https://saaol.com/all-centers-location/"> Our Center</a>
+        </button>
+        <button class="main-button book-appointment">
+            <a href="https://saaol.com/book-an-appointment/"> Book an appointment</a>
+        </button>
     </div>
 </div>

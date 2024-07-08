@@ -11,7 +11,7 @@
         </div>
         <div class="right flex">
             <button class="main-button">
-                <a href="https://saaol.com/all-centers-location/"> Our Center</a>
+                <a href="https://saaol.com/all-centers-location/"> Our Centers</a>
             </button>
             <button class="main-button">
                 <a href="https://saaol.com/book-an-appointment/"> Book an appointment</a>
@@ -60,7 +60,7 @@
         <a class="ease-transition" href="https://saaol.com/patients-journey">Testimonial</a>
         <a class="ease-transition" href="https://saaol.com/emagzine/">E-magzine</a>
         <button class="main-button book-appointment">
-            <a href="https://saaol.com/all-centers-location/"> Our Center</a>
+            <a href="https://saaol.com/all-centers-location/">Our Centers</a>
         </button>
         <button class="main-button book-appointment">
             <a href="https://saaol.com/book-an-appointment/"> Book an appointment</a>

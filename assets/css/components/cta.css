@@ -25,14 +25,15 @@
 }
 
 .cta-content h1 {
-  font-size: 70px;
+  font-size: 50px;
   margin: 0;
 }
 
 .cta-content h1 span {
-  font-size: 70px;
+  font-size: 50px;
   margin: 0;
-  color: yellow;
+  /*color: yellow;*/
+  color:#ed1d26;
 }
 
 @media screen and (max-width: 700px) {

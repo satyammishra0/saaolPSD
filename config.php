@@ -49,7 +49,7 @@ if (mode == 1) {
 
     $Mdb_username = 'root';
     $Mdb_password = '';
-    $Mdb_name = 'saaol_crm_live';
+    $Mdb_name = 'saaol-website';
     $Mdb_host = 'localhost';
     $DB_Prefix = "tbl_";
 }
@@ -89,10 +89,10 @@ ini_set('max_input_time', 300000000); // For image upload
 ini_set('innodb_log_file_size', '512M'); // For database
 ini_set('max_allowed_packet', '16M');  // For database
 
-$sqlList = "SELECT tss_value FROM " . DB_PREFIX . "site_settings WHERE tss_parameter = 'site_url'";
-$qryList = $DB->prepare($sqlList);
-$qryList->execute();
-$row = $qryList->fetch();
+// $sqlList = "SELECT tss_value FROM " . DB_PREFIX . "site_settings WHERE tss_parameter = 'site_url'";
+// $qryList = $DB->prepare($sqlList);
+// $qryList->execute();
+// $row = $qryList->fetch();
 $Site_Url =  'http://localhost/saaol/saaol-psd/';
 
 $Main_Site_Url =  $Site_Url;

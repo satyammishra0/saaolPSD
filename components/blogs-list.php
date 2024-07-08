@@ -16,6 +16,8 @@
                         <a href="https://saaol.com/blog/empowering-hearts-eecp-therapy-impact-on-heart-patients/">
                             Empowering Hearts: EECP Therapy Impact on Heart Patients
                         </a>
+                        <br>
+                                                <br>
                     </h3>
                     <div class="blog-list-graphics flex flex-center-between">
                         <div class="blog-list-graphics-left">
@@ -36,6 +38,8 @@
 
                             Exploring the Phases of Heart Disease: Heart Failure and Prevention
                         </a>
+                                                <br>
+                                                                        <br>
                     </h3>
                     <div class="blog-list-graphics flex flex-center-between">
                         <div class="blog-list-graphics-left">
@@ -65,5 +69,10 @@
                 </div>
             </div>
         </div>
+        
+        <div class="btn grid grid-center">
+         <button class="main-button" style="background-color:white;color:var(--primary-blue-colour);margin-top:5%;"><a href="https://saaol.com/blog/">View more</a></button>
+     </div>
     </div>
+    
 </section>

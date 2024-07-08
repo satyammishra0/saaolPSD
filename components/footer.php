@@ -28,35 +28,35 @@
         <div class="footer-container-box">
             <h3>Contact us</h3>
             <div class="contact-details-container grid">
-                <div class="contact-details-container-left grid grid-center">
+                <div class="contact-details-container-left ">
                     <i class='bx bxs-map'></i>
                 </div>
                 <div class="contact-details-container-rigth">
-                    <b>Cooperate Office:</b> Saaol House 30-31 Jonapur Estate, Jonapur(Chhattarpur), New Delhi -110047
+                    <b>Corporate Office:</b> <br> Saaol House<br> 30-31, Jonapur Estate, <br> Jonapur, New Delhi -110047
                 </div>
             </div>
             <div class="contact-details-container grid">
-                <div class="contact-details-container-left grid grid-center">
+                <div class="contact-details-container-left">
                     <i class='bx bxs-map'></i>
                 </div>
                 <div class="contact-details-container-rigth">
-                    <b>Head Office:</b> Shivpuri, Hariyawala Kalan, Dehradun, Uttarakhand 248141
+                    <b>Head Office:</b> <br> SAAOL Experience Center Dehradun (SAAOL Heart and Wellness Research Institute) <br> Shivpuri, Hariyawala Kalan, <br> Dehradun, Uttarakhand-248141
                 </div>
             </div>
             <div class="contact-details-container grid">
-                <div class="contact-details-container-left grid grid-center">
+                <div class="contact-details-container-left grid">
                     <i class='bx bxs-phone'></i>
                 </div>
                 <div class="contact-details-container-rigth">
-                    <b>Contact Now: </b> 011-44732744, 011-44732745, 011-44732746
+                    <b>Contact Numbers: </b><br> 011-44732744, 011-44732745, 011-44732746
                 </div>
             </div>
             <div class="contact-details-container grid">
-                <div class="contact-details-container-left grid grid-center">
+                <div class="contact-details-container-left ">
                     <i class='bx bxs-envelope'></i>
                 </div>
                 <div class="contact-details-container-rigth">
-                    <b>Email:</b> info@saaol.com
+                    <b>Email:</b><br> info@saaol.com
                 </div>
             </div>
             <div class="footer-social-icon-container ">

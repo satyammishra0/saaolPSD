@@ -3,9 +3,9 @@ let home_slider_image = document.getElementById("home_slider_image");
 
 // Array of image URLs
 var imgNamesArray = [
-  "https://saaol.com/gallerylight/assets/images/psd/Bimal-sir-img.png",
-  "https://saaol.com/gallerylight/assets/images/psd/Bimal-sir-with patients.png",
-  "https://saaol.com/gallerylight/assets/images/psd/4image-collage-for-header.png",
+  "https://saaol.com/psd/assets/images/psd/Bimal-sir-img.png",
+  "https://saaol.com/psd/assets/images/psd/Bimal-sir-with patients.png",
+  "https://saaol.com/psd/assets/images/psd/4image-collage-for-header.png",
 ];
 
 // Initialize a counter to keep track of the current image index

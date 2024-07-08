@@ -1,12 +1,10 @@
 .home-first-section {
-  /* padding: 3% 7% 0; */
   grid-template-columns: repeat(2, 1fr);
   gap: 5%;
 }
 
 .home-first-left > img {
   height: 450px;
-  /* width: 100%; */
   transition: opacity 0.8s ease-in-out;
 }
 
@@ -37,9 +35,9 @@
 }
 
 .first-treatment-card {
-  padding: 15px 25px;
-  grid-template-columns: 30% 1fr;
-  gap: 8%;
+  padding: 15px 5px;
+  grid-template-columns: 25% 1fr;
+  gap: 5%;
 }
 
 .first-treatment-card {
@@ -49,8 +47,17 @@
   color: var(--primary-blue-colour);
 }
 
+.first-treatment-card-left > img {
+  height: 100%;
+  width: 100%;
+}
+
 .first-treatment-card-rigth {
   font-weight: 500;
+}
+
+.first-treatment-card-rigth > a {
+  color: var(--primary-blue-colour);
 }
 
 /* ------------------------------------ */

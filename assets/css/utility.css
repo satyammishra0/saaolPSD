@@ -96,6 +96,7 @@
   background-color: var(--primary-blue-colour);
   border: 2px solid var(--white);
 }
+
 .main-button:hover a {
   color: var(--white);
 }

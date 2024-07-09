@@ -59,7 +59,7 @@ include_once HEAD_TOP;
                         <lable>Phone Number</lable>
                         <input type="text" placeholder="Eg. +91 99897867878">
                     </div>
-                    <button type="submit" class="main-button">Submit</button>
+                    <button type="submit" class="first-banner-form-button">Submit</button>
                 </form>
             </div>
 

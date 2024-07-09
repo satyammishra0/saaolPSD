@@ -89,7 +89,31 @@
 
 .first-banner-form > form > div > input::placeholder {
   color: var(--paragraph-font-color);
-  font-size: 16px;
+  font-size: 14px;
+}
+
+.first-banner-form-button {
+  margin-top: 1%;
+  padding: 0px 20px;
+  line-height: 2;
+  color: var(--primary-blue-colour);
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 4px;
+  border: 2px solid var(--primary-blue-colour);
+  transition: 0.3s all ease;
+  cursor: pointer;
+  background-color: var(--white);
+}
+
+.first-banner-form-button:hover {
+  color: var(--white);
+  background-color: var(--primary-blue-colour);
+  border: 2px solid var(--white);
+}
+
+.main-button:hover a {
+  color: var(--white);
 }
 
 /* -------------------------------------- */
@@ -491,12 +515,10 @@
   text-align: center;
   margin-bottom: 3%;
 }
-
 .cities-slider p {
   font-size: 16px;
   line-height: 1.5;
   padding: 20px;
-  background: #f0f0f0;
   margin: 10px;
 }
 
@@ -521,7 +543,6 @@
   background: transparent;
   border-radius: 50%;
 }
-
 .slick-prev:before,
 .slick-next:before {
   font-family: "slick";
@@ -530,19 +551,15 @@
   opacity: 0.75;
   color: var(--white) !important;
 }
-
 .slick-prev {
   left: -50px !important;
 }
-
 .slick-next {
   right: -50px !important;
 }
-
 .slick-prev:before {
   content: "←";
 }
-
 .slick-next:before {
   content: "→";
 }
@@ -574,7 +591,7 @@
 .card-city-review .line-city-review {
   width: 50%;
   height: 1px;
-  background: #ccc;
+  background: var(--primary-blue-colour);
   margin: 10px auto;
 }
 
@@ -582,6 +599,7 @@
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0;
+  color: var(--primary-blue-colour);
 }
 
 .card-city-review .address-city-review {

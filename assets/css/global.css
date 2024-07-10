@@ -10,7 +10,8 @@
 }
 
 :root {
-  --primary-blue-colour: #01adef;
+  /* --primary-blue-colour: #01adef; */
+  --primary-blue-colour: #1e95c3;
   /* --primary-blue-colour: #029094; */
   --paragraph-font-color: #727272;
   --black: #000;
@@ -23,8 +24,8 @@
   --section-padding: 0 7%;
   --gradient-colour: linear-gradient(
     90deg,
-    rgba(2, 144, 148, 1) 0%,
-    rgba(0, 172, 177, 1) 100%
+    rgb(30 149 195) 0%,
+    rgb(30 149 195) 100%
   );
 }
 

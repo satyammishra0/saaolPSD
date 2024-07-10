@@ -152,11 +152,7 @@
 /* Div to add background colour and gradient */
 .gradient-div {
   background: rgb(1, 173, 239);
-  background: linear-gradient(
-    90deg,
-    rgba(1, 173, 239, 1) 0%,
-    rgba(1, 173, 239, 1) 100%
-  );
+  background: linear-gradient(90deg, rgb(30 149 195) 0%, rgb(30 149 195) 100%);
 }
 
 /* transition ease class */

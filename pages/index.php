@@ -50,9 +50,9 @@ include_once HEAD_TOP;
                     </div>
                     <div class="first-treatment-card grid grid-center">
                         <div class="first-treatment-card-left">
-                            <img src="<?= get_img() ?>/psd/Healthy-lifestyle.png" alt="Healthy lifestyle img">
+                            <img src="<?= get_img() ?>/psd/detox-icon.png" alt="Detox icon">
                         </div>
-                        <div class="first-treatment-card-rigth">Healthy Lifestyle</div>
+                        <div class="first-treatment-card-rigth">SAAOL detox</div>
                     </div>
                 </div>
             </div>

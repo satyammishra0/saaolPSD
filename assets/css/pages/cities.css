@@ -1,6 +1,3 @@
-.first-banner-cities {
-}
-
 .first-states-grid {
   background-image: url("../../images/psd/cities/header-banner.jpg");
   grid-template-columns: 60% 1fr;
@@ -606,4 +603,47 @@
   font-size: 14px;
   color: #555;
   margin: 5px 0;
+}
+
+@media screen and (max-width: 700px) {
+  .first-states-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+
+  .about-cities-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .location-cities {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .location-details {
+    padding: 5% 7%;
+  }
+
+  .cities-benefit {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .our-services-cities-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .why-choose-city-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .nearby-center-city-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .nearby-centers-cities-map > iframe {
+    height: 300px;
+  }
+
+  .nearby-centers-cities-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

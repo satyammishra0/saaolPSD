@@ -3,7 +3,9 @@
     <div class="header-upper flex flex-center-between section-padding">
         <div class="left flex-total-center">
             <div class="logo">
-                <img src="<?= get_img() ?>/saaol_logo.webp" alt="SAAOL Logo">
+                <a href="https://saaol.com/">
+                    <img src="<?= get_img() ?>/saaol_logo.webp" alt="SAAOL Logo">
+                </a>
             </div>
             <div class="brand-name">
                 <h2><span>SAAOL:</span>Science and Art of Living</h2>

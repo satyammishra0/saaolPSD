@@ -11,6 +11,10 @@ ReWriteRule ^404$  pages/404.php [NC,L]
 ReWriteRule ^centers([/]?)$ pages/center-page.php [NC,L]
 ReWriteRule ^states([/]?)$ pages/states.php [NC,L]
 ReWriteRule ^cities([/]?)$ pages/cities.php [NC,L]
+ReWriteRule ^about([/]?)$ pages/about.php [NC,L]
+ReWriteRule ^about-dr-bimal([/]?)$ pages/about-drbimal.php [NC,L]
+
+
 
 
 

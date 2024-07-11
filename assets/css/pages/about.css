@@ -1,0 +1,109 @@
+.first-states-grid {
+  background-image: url("../../images/psd/pages/about-us-banner.jpg");
+  grid-template-columns: 50% 1fr;
+  padding: 5% 7%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-banner-cities-content {
+  margin-right: 5%;
+}
+
+.first-banner-cities-content > h2 {
+  margin-bottom: 3%;
+  color: var(--white);
+  font-weight: 700;
+}
+
+/* -------------------------------------- */
+/* Who we are section */
+/* -------------------------------------- */
+
+.who-we-are {
+  padding: 5% 7%;
+  text-align: center;
+}
+
+/* -------------------------------------- */
+/* Who we are section */
+/* -------------------------------------- */
+.mission-vision {
+  padding: 5% 7%;
+}
+
+.mission-vision > h2 {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.mission-vision-parent {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3%;
+}
+
+.mission-vison-circle {
+  height: 90px;
+  width: 90px;
+  background-color: var(--white);
+  border-radius: 50%;
+}
+
+.mission-vison-circle > svg {
+  height: 75px;
+  border-radius: 50%;
+  width: 75px;
+  background-color: var(--white);
+}
+
+.mission-vision-card > h3 {
+  color: var(--primary-blue-colour);
+  font-size: 24px;
+}
+
+/* -------------------------------------- */
+/* About saaol section */
+/* -------------------------------------- */
+
+.about-saaol {
+  padding: 5% 7%;
+  padding-top: 0;
+}
+
+.about-saaol-parent {
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5%;
+}
+
+.about-saaol-img > img {
+  height: 100%;
+  width: 100%;
+}
+
+.about-saaol-content > h2 {
+  margin-bottom: 3%;
+}
+
+@media screen and (max-width: 700px) {
+  .who-we-are .home-heading {
+    text-align: center;
+  }
+
+  .mission-vision-parent {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+  }
+
+  .mission-vision-card {
+    margin-bottom: 3%;
+  }
+
+  .about-saaol-parent {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+  }
+
+  .about-saaol-img {
+    margin-bottom: 5%;
+  }
+}

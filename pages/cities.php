@@ -368,7 +368,7 @@ include_once HEAD_TOP;
     <!-- ============================================================== -->
     <!-- Near by locations section-->
     <!-- ============================================================== -->
-    <section class="nearby-centers-cities grid">
+    <!-- <section class="nearby-centers-cities grid">
         <h2 class="home-heading">
             Find center nearest to you.
         </h2>
@@ -667,7 +667,7 @@ include_once HEAD_TOP;
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- ============================================================== -->
     <!-- Slick js slider review -->

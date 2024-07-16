@@ -45,6 +45,7 @@
   color: var(--black);
   padding: 10px 15px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .navbar a:hover {

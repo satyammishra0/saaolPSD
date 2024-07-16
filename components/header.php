@@ -27,7 +27,7 @@
         <a href="javascript:void(0);" class="close-icon" onclick="toggleNavbarfn()">&times;</a>
         <a class="ease-transition" href="https://saaol.com/">Home</a>
         <div class="dropdown">
-            <a class="ease-transition" href="https://saaol.com/" class="dropbtn">About <span><i class='bx bxs-down-arrow'></i></span></a>
+            <a class="ease-transition" class="dropbtn">About <span><i class='bx bxs-down-arrow'></i></span></a>
             <div class="dropdown-content">
                 <a class="ease-transition" href="https://saaol.com/about">About us</a>
                 <a class="ease-transition" href="https://saaol.com/about-dr-bimal">About Dr. Bimal</a>
@@ -38,19 +38,19 @@
             </div>
         </div>
         <div class="dropdown">
-            <a class="ease-transition" href="https://saaol.com/heart-health" class="dropbtn">Heart Health <span><i class='bx bxs-down-arrow'></i></span></a>
+            <a class="ease-transition" class="dropbtn">Heart Health <span><i class='bx bxs-down-arrow'></i></span></a>
             <div class="dropdown-content">
-                <a class="ease-transition" href="https://saaol.com/assess-risk">Access Risk</a>
+                <a class="ease-transition" href="https://saaol.com/heart-health">Overview</a>
+                <a class="ease-transition" href="https://saaol.com/assess-risk">Assess Risk</a>
                 <a class="ease-transition" href="https://saaol.com/know-your-heart">Know Your Heart</a>
                 <a class="ease-transition" href="https://saaol.com/causes">Causes</a>
-                <a class="ease-transition" href="https://saaol.com/blog/">Blogs</a>
                 <a class="ease-transition" href="https://saaol.com/books">Books</a>
-                <a class="ease-transition" href="https://saaol.com/emagzine/">Emagzine</a>
             </div>
         </div>
         <div class="dropdown">
-            <a class="ease-transition" href="https://saaol.com/treatment" class="dropbtn">Treatments <span><i class='bx bxs-down-arrow'></i></span></a>
+            <a class="ease-transition" class="dropbtn">Treatments <span><i class='bx bxs-down-arrow'></i></span></a>
             <div class="dropdown-content">
+                <a class="ease-transition" href="https://saaol.com/treatment">Treatments Overview</a>
                 <a class="ease-transition" href="https://saaol.com/zero-oil-cooking">Zero oil cooking</a>
                 <a class="ease-transition" href="https://saaol.com/eecp-treatment">EECP Treatments</a>
                 <a class="ease-transition" href="https://saaol.com/life-style">Life Style</a>

@@ -12,12 +12,12 @@
             </div>
         </div>
         <div class="right flex">
-            <button class="main-button">
-                <a href="https://saaol.com/all-centers-location/"> Our Centers</a>
-            </button>
-            <button class="main-button">
-                <a href="https://saaol.com/book-an-appointment/"> Book an appointment</a>
-            </button>
+            <!-- <button class="main-button"> -->
+            <a class="main-button" href="https://saaol.com/all-centers-location/"> Our Centers</a>
+            <!-- </button> -->
+            <!-- <button class="main-button"> -->
+            <a class="main-button" href="https://saaol.com/book-an-appointment/"> Book an appointment</a>
+            <!-- </button> -->
             <a href="javascript:void(0);" class="icon" onclick="toggleNavbarfn()">&#9776;</a>
         </div>
     </div>
@@ -61,11 +61,11 @@
         <a class="ease-transition" href="https://saaol.com/career">Career</a>
         <a class="ease-transition" href="https://saaol.com/patients-journey">Testimonial</a>
         <a class="ease-transition" href="https://saaol.com/emagzine/">E-magzine</a>
-        <button class="main-button book-appointment">
-            <a href="https://saaol.com/all-centers-location/">Our Centers</a>
-        </button>
-        <button class="main-button book-appointment">
-            <a href="https://saaol.com/book-an-appointment/"> Book an appointment</a>
-        </button>
+        <!-- <button> -->
+        <a class="main-button book-appointment" href="https://saaol.com/all-centers-location/">Our Centers</a>
+        <!-- </button> -->
+        <!-- <button class="main-button book-appointment"> -->
+        <a class="main-button book-appointment" href="https://saaol.com/book-an-appointment/"> Book an appointment</a>
+        <!-- </button> -->
     </div>
 </div>

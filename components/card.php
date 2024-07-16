@@ -2,5 +2,5 @@
     <img src="<?= $cardImgPath ?>" alt="<?= $cardImgAlt ?>">
     <h4><?= $cardImgHeading ?></h4>
     <p><?= $cardImgContent ?></p>
-    <button class="main-button"><a href="<?= $cardLink ?>"><?= $cardImgBtn ?></a></button>
+    <a href="<?= $cardLink ?>" class="main-button"><?= $cardImgBtn ?></a>
 </div>

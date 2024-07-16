@@ -88,7 +88,7 @@ include_once HEAD_TOP;
                     Experience cutting-edge heart care at the SAAOL Heart Center in Aligarh, specializing in innovative EECP treatment. Our center is dedicated to providing comprehensive care for patients facing heart diseases, including heart attack treatment, heart failure treatment, and heart disease management. We utilize advanced EECP therapy, also known as natural bypass therapy, delivering non-invasive solutions for patients with heart blockages, aiming to reverse heart disease and promote natural heart healing.
                     At our state-of-the-art facility, we prioritize patient well-being by providing a range of services beyond EECP treatment. Our holistic approach includes detox therapy to support overall cardiovascular health and detoxification therapy treatment to address underlying factors contributing to heart disease. With a focus on non-invasive techniques, our center aims to provide effective cardio treatment for conditions such as coronary artery disease, ensuring optimal outcomes with minimal risk. Trust our experienced team at the Heart Center in Aligarh to deliver personalized care and transformative results for your heart health journey.
                 </p>
-                <button class="main-button"><a href="#home-section">Book Appointment</a></button>
+                <a class="main-button" href="#home-section">Book Appointment</a>
             </div>
         </div>
     </section>
@@ -150,7 +150,7 @@ include_once HEAD_TOP;
             <div>
                 <h2>Benefits of EECP Therapy Compared to Bypass Surgery (CABG)</h2>
                 <p>EECP Therapy presents several significant advantages over traditional Bypass surgery (CABG). Here's why it stands out:</p>
-                <button class="main-button"><a href="#home-section">Book Appointment</a></button>
+                <a class="main-button" href="#home-section">Book Appointment</a>
 
             </div>
         </div>

@@ -74,7 +74,7 @@ include_once HEAD_TOP;
             <p>
                 SAAOL mission is to reduce the mortality rate due to heart disease related deaths and provide holistic heart care treatment and approach through natural bypass therapy, FDA approved non-invasive heart treatment like EECP and lifestyle changes. SAAOL Heart Centers are spread all over India so that people can have access to best heart treatment in India without travelling to Indian cities. Our heart specialists are trained under world renowned cardiologist Dr. Bimal Chhajer MBBS, MD (former AIIMS resident & associate professor). SAAOL ultimate purpose is to provide the best heart treatment and eradicate heart disease related deaths in India and then the world. Motto: Mission Beat Heart Disease.
             </p>
-            <button class="main-button "><a href="https://saaol.com/about">Know More</a> <span><i class='bx bx-right-arrow-alt'></i></span></button>
+            <a class="main-button" href="https://saaol.com/about">Know More</a>
         </div>
         <div class="about-us-image grid grid-center">
             <img src="<?= get_img() ?>/psd/About-us.png" alt="About us img">
@@ -143,7 +143,7 @@ include_once HEAD_TOP;
 
                         Today, the history of EECP treatment stands as one of the most sought after heart treatment that is effective and long lasting. It emerges as the most extraordinary heart disease solutions in the world of surgeries and western medicine. EECP’s invention is an inspiration that is truly life-changing for heart patients seeking the best non-invasive heart treatment solution, forever altering the landscape of heart health.
                     </p>
-                    <button class="main-button "><a href="https://saaol.com/eecp-treatment">Know More</a> <span><i class='bx bx-right-arrow-alt'></i></span></button>
+                    <a class="main-button " href="https://saaol.com/eecp-treatment">Know More<span><i class='bx bx-right-arrow-alt'></i></span></a>
                 </div>
                 <div class="eecp-treatment-images grid grid-center">
                     <img src="<?= get_img() ?>/psd/EECP-treatment-machine.png" alt="eecp-treatment img">

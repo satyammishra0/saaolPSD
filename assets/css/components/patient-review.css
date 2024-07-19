@@ -1,3 +1,4 @@
+/* General Styles for Slider */
 .cities-slider {
   width: 80%;
   margin: 50px auto;
@@ -9,10 +10,68 @@
 .cities-slider p {
   font-size: 16px;
   line-height: 1.5;
-  padding: 20px;
+  padding: 10px 0;
   margin: 10px;
 }
 
+/* Card Styles */
+.card-city-review {
+  padding: 20px;
+  padding-bottom: 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: var(--white);
+  margin: 20px 8px;
+  height: 100%;
+}
+
+.quote > img {
+  height: 50px;
+}
+
+.card-city-review .city-review {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.card-city-review .line-city-review {
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+}
+
+.card-city-review .reviewer-info {
+  display: flex;
+  align-items: center;
+}
+
+.card-city-review img.city-review {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.card-city-review .reviewer-details {
+  text-align: left;
+}
+
+.card-city-review .name-city-review {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--primary-blue-colour);
+}
+
+.card-city-review .address-city-review {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Slick Slider Navigation Buttons */
 .slick-prev,
 .slick-next {
   font-size: 0;
@@ -55,46 +114,54 @@
   content: "→";
 }
 
-.card-city-review {
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  font-family: Arial, sans-serif;
-  margin: 20px 8px;
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+  .card-city-review .quote {
+    font-size: 40px;
+  }
+
+  .card-city-review img.city-review {
+    width: 60px;
+    height: 60px;
+  }
+
+  .card-city-review .name-city-review {
+    font-size: 16px;
+  }
+
+  .card-city-review .address-city-review {
+    font-size: 12px;
+  }
 }
 
-.card-city-review img.city-review {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 2%;
-}
+@media screen and (max-width: 480px) {
+  .card-city-review {
+    padding: 10px;
+  }
 
-.card-city-review p.city-review {
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 10px 0;
-}
+  .card-city-review .quote {
+    font-size: 30px;
+  }
 
-.card-city-review .line-city-review {
-  width: 50%;
-  height: 1px;
-  background: var(--primary-blue-colour);
-  margin: 10px auto;
-}
+  .card-city-review .city-review {
+    padding-top: 40px;
+    font-size: 14px;
+  }
 
-.card-city-review .name-city-review {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0;
-  color: var(--primary-blue-colour);
-}
+  .card-city-review .line-city-review {
+    margin: 10px 0;
+  }
 
-.card-city-review .address-city-review {
-  font-size: 14px;
-  color: #555;
-  margin: 5px 0;
+  .card-city-review img.city-review {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card-city-review .name-city-review {
+    font-size: 14px;
+  }
+
+  .card-city-review .address-city-review {
+    font-size: 10px;
+  }
 }

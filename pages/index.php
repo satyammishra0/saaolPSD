@@ -164,52 +164,89 @@ include_once HEAD_TOP;
         <h2 class="home-heading">What people say about us?</h2>
         <div class="multiple-items" data-slick='{"slidesToShow": 3, "slidesToScroll": 3}'>
 
-            <div>
-                <div class="card-city-review grid grid-center">
+
+            <div class="card-city-review">
+                <div class="quote">
+                    <img src="<?= get_img() ?>psd/quote-left.png" alt="Double quotes">
+                </div>
+                <p class="city-review">Dr Bimal is very humble and down-to-earth, my grandfather had heart problem and we went to SAAOL, suggested by our friend. Dr Bimal helped us solve our query with utmost patience. Really appreciate, fully satisfied.</p>
+                <div class="line-city-review"></div>
+                <div class="reviewer-info">
                     <img src="<?= get_img() ?>psd/user-img.jpg" alt="Reviewer Image" class="city-review">
-                    <p class="city-review">Dr Bimal is very humble and down-to-earth, my grandfather had heart problem and we went to SAAOL, suggested by our friend. Dr Bimal helped us solve our query with utmost patience. Really appreciate, fully satisfied.</p>
-                    <div class="line-city-review"></div>
-                    <div class="name-city-review city-review">Abhishek Jaiswal</div>
-                    <!-- <div class="address-city-review city-review">City, State</div> -->
+                    <div class="reviewer-details">
+                        <div class="name-city-review">Abhishek Jaiswal</div>
+                        <div class="address-city-review">Rohtak, Haryana</div>
+                    </div>
                 </div>
             </div>
-            <div>
-                <div class="card-city-review grid grid-center">
+
+
+            <div class="card-city-review">
+                <div class="quote">
+                    <img src="<?= get_img() ?>psd/quote-left.png" alt="Double quotes">
+                </div>
+                <p class="city-review">I am so glad that I have come here to treat my mom. The front line staffs are very helping nature.... Specially receptionists. Awesome place fir heart patients....</p>
+                <div class="line-city-review"></div>
+                <div class="reviewer-info">
                     <img src="<?= get_img() ?>psd/user-img.jpg" alt="Reviewer Image" class="city-review">
-                    <p class="city-review">I am so glad that I have come here to treat my mom. The front line staffs are very helping nature.... Specially receptionists. Awesome place fir heart patients....</p>
-                    <div class="line-city-review"></div>
-                    <div class="name-city-review city-review">ARHAN AAFRI </div>
-                    <!-- <div class="address-city-review city-review">City, State</div> -->
+                    <div class="reviewer-details">
+                        <div class="name-city-review">ARHAN AAFRI</div>
+                        <div class="address-city-review">City, State</div>
+                    </div>
                 </div>
             </div>
-            <div>
-                <div class="card-city-review grid grid-center">
+
+
+            <div class="card-city-review">
+                <div class="quote">
+                    <img src="<?= get_img() ?>psd/quote-left.png" alt="Double quotes">
+                </div>
+                <p class="city-review">I am just sharing my experience after 4 years of regular consultation from Delhi Chhatarpur center. I am totally satisfied. 95% and 80% blockage were in few major places from many blockages.</p>
+                <div class="line-city-review"></div>
+                <div class="reviewer-info">
                     <img src="<?= get_img() ?>psd/user-img.jpg" alt="Reviewer Image" class="city-review">
-                    <p class="city-review">I am just sharing my experience after 4 years of regular consultation from Delhi Chhatarpur center. I am totally satisfied. 95% and 80% blockage were in few major places from many blockages.</p>
-                    <div class="line-city-review"></div>
-                    <div class="name-city-review city-review">Pranav Kumar</div>
-                    <div class="address-city-review city-review">City, State</div>
+                    <div class="reviewer-details">
+                        <div class="name-city-review">Pranav Kumar</div>
+                        <div class="address-city-review">City, State</div>
+                    </div>
                 </div>
             </div>
-            <div>
-                <div class="card-city-review grid grid-center">
+
+
+            <div class="card-city-review">
+                <div class="quote">
+                    <img src="<?= get_img() ?>psd/quote-left.png" alt="Double quotes">
+                </div>
+                <p class="city-review">The doctor and staff here are very good. My grandmother had heart blockage problem and brought us here for ecp. The doctor understood us very well and we took ecp treatment and it was very successful.</p>
+                <div class="line-city-review"></div>
+                <div class="reviewer-info">
                     <img src="<?= get_img() ?>psd/user-img.jpg" alt="Reviewer Image" class="city-review">
-                    <p class="city-review">The doctor and staff here are very good. My grandmother had heart blockage problem and brought us here for ecp. The doctor understood us very well and we took ecp treatment and it was very successful.</p>
-                    <div class="line-city-review"></div>
-                    <div class="name-city-review city-review">Naida</div>
-                    <!-- <div class="address-city-review city-review">City, State</div> -->
+                    <div class="reviewer-details">
+                        <div class="name-city-review">Naida</div>
+                        <div class="address-city-review">City, State</div>
+                    </div>
                 </div>
             </div>
-            <div>
-                <div class="card-city-review grid grid-center">
+
+
+            <div class="card-city-review">
+                <div class="quote">
+                    <img src="<?= get_img() ?>psd/quote-left.png" alt="Double quotes">
+                </div>
+                <p class="city-review">
+                    This Hospital is Located in DLF Westend Farms.(right behind the DLF Chhatarpur Farms). You can reach here By Metro also. Just get down at Chattarpur metro station and take any Public transport to reach here. This is located on the Mandi Gaon Riad. This is the Best Place for the Treatment for the Heart Disease without any Surgery . Operated by The Doctor Bimal Chajjar.
+                </p>
+                <div class="line-city-review"></div>
+                <div class="reviewer-info">
                     <img src="<?= get_img() ?>psd/user-img.jpg" alt="Reviewer Image" class="city-review">
-                    <p class="city-review">
-                        This Hospital is Located in DLF Westend Farms.(right behind the DLF Chhatarpur Farms). You can reach here By Metro also. Just get down at Chattarpur metro station and take any Public transport to reach here. This is located on the Mandi Gaon Riad. This is the Best Place for the Treatment for the Heart Disease without any Surgery . Operated by The Doctor Bimal Chajjar.</p>
-                    <div class="line-city-review"></div>
-                    <div class="name-city-review city-review">Mickpreet</div>
-                    <!-- <div class="address-city-review city-review">City, State</div> -->
+                    <div class="reviewer-details">
+                        <div class="name-city-review">Mickpreet</div>
+                        <div class="address-city-review">City, State</div>
+                    </div>
                 </div>
             </div>
+
+
         </div>
     </section>
 

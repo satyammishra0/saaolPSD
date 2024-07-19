@@ -720,8 +720,6 @@ include_once HEAD_TOP;
                     <div class="address-city-review city-review">City, State</div>
                 </div>
             </div>
-
-
         </div>
     </section>
 

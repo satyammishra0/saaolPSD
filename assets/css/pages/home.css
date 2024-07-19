@@ -161,6 +161,7 @@
 /* ------------------------------------ */
 .why-choose {
   padding: 5% 7%;
+  padding-top: 0;
 }
 
 .why-choose .patient-says-first > p {

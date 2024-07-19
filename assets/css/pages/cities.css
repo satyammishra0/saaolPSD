@@ -571,6 +571,11 @@
   margin: 20px 8px;
 }
 
+.card-city-review > img {
+  height: 150px;
+  width: 150px;
+}
+
 .card-city-review img.city-review {
   width: 80px;
   height: 80px;

@@ -3,15 +3,20 @@
 }
 
 .footer-container {
-  grid-template-columns: 36% 27% 27%;
+  grid-template-columns: 25% 30% 1fr;
   gap: 5%;
   padding: 5% 7%;
+  padding-bottom: 3%;
 }
 
 .footer-container-box-wt {
   padding: 5%;
   background-color: var(--white);
   border-radius: 8px;
+}
+
+.footer-container-box-wt-logo {
+  width: max-content;
 }
 
 .footer-container-box-wt-logo > img {
@@ -23,6 +28,10 @@
   color: var(--white);
 }
 
+.footer-container-box > div {
+  gap: 5%;
+}
+
 .footer-container-box > h3 {
   margin-bottom: 3%;
   color: var(--white);
@@ -30,15 +39,15 @@
   font-weight: 500;
 }
 
-.footer-container-box > ul > li {
+.footer-container-box > div > ul > li {
   margin-bottom: 3%;
 }
 
-.footer-container-box > ul > li > a {
+.footer-container-box > div > ul > li > a {
   color: var(--white);
 }
 
-.footer-container-box > ul > li > a:hover {
+.footer-container-box > div > ul > li > a:hover {
   color: #eee;
 }
 
@@ -47,20 +56,27 @@
 }
 
 .footer-container-box-left {
-  margin-top: -17%;
   border-radius: 0;
+  height: max-content;
+  border-radius: 6px;
 }
 
 .footer-container-box-wt-content > p {
-  color: var(--paragraph-font-color);
-  font-size: 17px;
-  line-height: 1.6;
+  color: var(--white);
+  font-size: 13px;
+  line-height: 1.3;
+  margin-top: 3%;
+}
+
+.footer-container-box .contact-details-container {
+  grid-gap: 0;
 }
 
 .contact-details-container {
-  grid-template-columns: 15% 1fr;
+  grid-template-columns: 10% 1fr;
   color: var(--white);
   margin-bottom: 4%;
+  grid-gap: 0;
 }
 
 .contact-details-container-left > i {
@@ -80,7 +96,7 @@
 .footer-social-icon-container > div > div {
   background-color: #00ffff61;
   border-radius: 3px;
-  padding: 6px 10px;
+  padding: 5px 6px;
   border: 0.8px solid var(--primary-blue-colour);
   cursor: pointer;
 }
@@ -90,14 +106,18 @@
 }
 
 .footer-social-icon-container > div > div > a > i {
-  font-size: 30px;
+  font-size: 25px;
   color: var(--white);
 }
 
 .footer-bottom-txt {
+  padding: 10px 7%;
   text-align: center;
-  padding: 10px;
   border-top: 1px solid var(--white);
+  color: var(--white);
+}
+
+.footer-bottom-txt > div > a {
   color: var(--white);
 }
 

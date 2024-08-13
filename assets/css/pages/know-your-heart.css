@@ -1,0 +1,85 @@
+.section-page-padding {
+  padding: 5% 7%;
+}
+
+.main-heading {
+  text-align: center;
+}
+.about-header {
+  background-color: #f8f8f8;
+}
+
+.about-header > h2 {
+  color: #54595f;
+  text-align: center;
+}
+
+/* Know your heart */
+.what-heart-attack-img > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.what-heart-attack-content > h2 {
+  text-align: left;
+}
+
+.what-heart-attack-content > p {
+  margin: 5% 0;
+}
+
+/* High BP Section */
+.awards-tab-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.awards-btn-container {
+  gap: 20px;
+}
+.awards-tab-button {
+  background-color: transparent;
+  border: 1px solid var(--primary-blue-colour);
+  color: white;
+  padding: 10px 0;
+  margin-bottom: 5px;
+  color: var(--black);
+  border-radius: 6px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.awards-tab-content {
+  display: none;
+  padding: 15px;
+  border: 1px solid var(--primary-blue-colour);
+  border-radius: 6px;
+}
+
+.awards-tab-content > ul > li {
+  line-height: 2;
+}
+
+.awards-tab-content > ul > li > i {
+  line-height: 2;
+  font-style: 28px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: var(--primary-blue-colour);
+}
+
+.awards-tab-content > h4 {
+  color: var(--primary-blue-colour);
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .video-gallery .grid-3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .video-gallery-container > iframe {
+    margin-bottom: 3%;
+  }
+}

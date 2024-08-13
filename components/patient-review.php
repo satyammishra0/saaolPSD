@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="testimonial-rigth">
-            <img src="<?= get_img() ?>/psd/patient-review.jpg" alt="Patient review js">
+            <img src="<?= get_img() ?>/psd/Patients-say-img.png" alt="Patient review js">
         </div>
     </div>
 

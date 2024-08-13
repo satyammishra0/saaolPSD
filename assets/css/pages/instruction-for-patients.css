@@ -1,0 +1,56 @@
+.first-states-grid {
+  background-image: url("../../images/psd/pages/about-us-banner.jpg");
+  grid-template-columns: 50% 1fr;
+  padding: 5% 7%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-banner-cities-content {
+  margin-right: 5%;
+}
+
+.first-banner-cities-content > h2 {
+  margin-bottom: 3%;
+  color: var(--white);
+  font-weight: 700;
+}
+
+/* instructions container */
+
+.instruction-patient-card-container {
+  padding: 5% 7%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.instruction-patient-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.instruction-patient-card-icon {
+  font-size: 40px;
+  color: rgb(30, 149, 195);
+}
+
+.instruction-patient-card h3 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.instruction-patient-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .instruction-patient-card-container {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+}

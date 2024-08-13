@@ -9,21 +9,21 @@
     <div class="parent-faq">
         <div class="faq-section">
             <div class="faq-column grid grid-2">
-                <div class="faq-item">
+                <div class="faq-item active">
                     <div class="faq-question">
                         <img src="<?= get_img() ?>/psd/FAQ-icon.png" alt="Bimal sir main img">
                         <span>Can we take appointment online?</span>
                     </div>
-                    <div class="faq-answer">
+                    <div class="faq-answer" style="max-height: max-content; padding-top: 10px; padding-bottom: 10px;">
                         Yes. It's very easy to book appointment online with Dr. Bimal Chhajer. You just need to fill out our form and our team will connect with you and guide you for the process of online appointment booking which costs only Ru. 5000
                     </div>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item active">
                     <div class="faq-question">
                         <img src="<?= get_img() ?>/psd/FAQ-icon.png" alt="Bimal sir main img">
                         <span>How to find the nearest center?</span>
                     </div>
-                    <div class="faq-answer">
+                    <div class="faq-answer" style="max-height: max-content; padding-top: 10px; padding-bottom: 10px;">
                         It is very easy to find the nearest center near to you for this you just need to visit the find nearest page and from there you can check you state and select for nearest center over there and visit for further proccess.
                     </div>
                 </div>

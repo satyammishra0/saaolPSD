@@ -1,0 +1,194 @@
+.first-home {
+  /* height: 60vh; */
+  height: max-content;
+}
+
+.first-home-bg {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../images/home/Top-slider-1.png");
+}
+
+.first-home-content {
+  width: 55%;
+  padding: 5% 0 5% 7%;
+}
+
+.first-home-content > h1 {
+  font-size: 45px;
+  color: var(--primary-blue-colour);
+  line-height: 1.3;
+  text-transform: capitalize;
+}
+
+.first-home-content > p {
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.first-home-content > h3 {
+  margin: 1% 0;
+  font-weight: 500;
+}
+
+.red-heading {
+  margin: 2% 0;
+  font-weight: 500;
+  color: var(--red);
+  font-size: 25px;
+}
+
+.first-home-content > button {
+  background-color: var(--primary-blue-colour);
+}
+
+.first-home-content > button > a {
+  color: var(--white);
+}
+
+.green {
+  color: #018438;
+}
+
+.first-icons-container {
+  margin: 4% 0;
+  margin-bottom: 0;
+  grid-template-columns: 20% 20% 30% 30%;
+}
+
+.icon-container-first .icon-content {
+  font-weight: 500;
+}
+
+.icon-container {
+  grid-template-columns: 30% 1fr;
+  grid-gap: 5%;
+}
+
+.home-icon > img {
+  height: 40px;
+  width: 100%;
+}
+
+.icon-container-first {
+  grid-template-columns: 30% 1fr;
+}
+
+/* ------------------------------------ */
+/* EECP treatment section css */
+/* ------------------------------------ */
+
+.eecp-benefits {
+  padding-top: 5%;
+  background-color: #fafafa;
+}
+
+.eecp-benefits .treatment-first > h4 {
+  font-size: 25px;
+  font-weight: 500px;
+}
+
+.eecp-benefits .treatment-first > h4 > span {
+  color: var(--red);
+  font-size: 25px;
+  font-weight: 500px;
+}
+
+.benefits-grid-parent {
+  padding: 5% 7%;
+  padding-bottom: 0;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%;
+}
+
+.benefits-grid-child-content {
+  padding-bottom: 4%;
+}
+
+.benefits-box {
+  margin-bottom: 8%;
+}
+
+.benefits-heading-box {
+  grid-template-columns: 8% 1fr;
+}
+
+.benefits-heading-box .benefits-icon > i {
+  color: var(--primary-blue-colour);
+  font-size: 24px;
+}
+
+.benefits-heading-box .content > h5 {
+  color: var(--primary-blue-colour);
+  margin-bottom: 1%;
+  margin-top: -1%;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.benefits-heading-box .content > p {
+  line-height: 1.3;
+  font-size: 13px;
+}
+
+.benefits-grid-child > img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 1020px) {
+  .first-home-content {
+    width: 80%;
+  }
+
+  .about-us-image > img {
+    height: 300px;
+  }
+
+  .benefits-grid-parent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .first-home-content {
+    width: 100%;
+  }
+
+  .first-home-content .main-heading {
+    text-align: left;
+  }
+
+  .first-icons-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .first-icons-container > div {
+    margin-bottom: 3%;
+  }
+
+  .about-us-image > img {
+    height: 430px;
+  }
+
+  .benefits-grid-parent {
+    gap: 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .benefits-grid-child {
+    margin-bottom: 3%;
+  }
+
+  .review-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .review-section .grid-center {
+    place-items: start;
+  }
+
+  .review-grid-left {
+    margin-bottom: 3%;
+  }
+}

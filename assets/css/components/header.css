@@ -1,5 +1,11 @@
 /* Flexbox utility classes */
 .header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 100000000000000;
   transition: max-height 0.5s ease-out;
 }
 
@@ -17,12 +23,12 @@
 }
 
 .header-upper .logo img {
-  height: 100px;
+  height: 80px;
 }
 
 .header-upper .brand-name h2 {
   font-size: 35px; /* Adjust font size as needed */
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .header-upper .brand-name h2 span {
@@ -36,15 +42,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ebebfe;
-  padding: 10px 7%;
+  background-color: #fafafa;
+  padding: 5px 7%;
   transition: max-height 0.5s ease-out;
+  box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.2);
 }
 
 .navbar a {
   color: var(--black);
-  padding: 10px 15px;
+  padding: 5px 15px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .navbar a:hover {

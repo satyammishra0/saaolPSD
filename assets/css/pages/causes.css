@@ -1,0 +1,74 @@
+.what-heart-attack-img > img {
+  width: 100%;
+}
+
+.what-heart-attack-content > ul > li > i {
+  color: var(--red);
+  font-size: 20px;
+  margin-right: 4px;
+  margin-bottom: 3%;
+}
+
+.what-heart-attack-content > h2 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-weight: 700;
+  margin-bottom: 2%;
+}
+
+/* Causes Treatment */
+.causes-card-container {
+  grid-gap: 1%;
+}
+
+.causes-treatment-content > h4 {
+  font-size: 20px;
+}
+
+.causes-treatment-content > h2 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-weight: 700;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.causes-treatment-content > p {
+  margin: 1% 0;
+  text-align: center;
+}
+
+.causes-card-container {
+  margin-top: 3%;
+}
+
+.causes-card-box {
+  padding: 2%;
+  grid-template-columns: 25% 1fr;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.causes-icon > svg {
+  margin-top: 5%;
+  height: 60px;
+  width: 60px;
+  color: var(--blue);
+}
+
+.causes-content > p {
+  margin-top: 2%;
+}
+
+@media screen and (max-width: 700px) {
+  .causes-treatment .grid-4 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .causes-card-box {
+    margin-bottom: 3%;
+  }
+}

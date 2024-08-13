@@ -38,6 +38,7 @@
             <p> <a href="https://x.com/i/flow/login?redirect_after_login=%2Fdrsaaol" target="_blank"><i class='bx bxl-twitter'></i></a></p>
             <p> <a href="https://www.youtube.com/c/saaolheartcare" target="_blank"><i class='bx bxl-youtube'></i></a></p>
             <p> <a href="https://www.linkedin.com/company/saaol/" target="_blank"><i class='bx bxl-linkedin-square'></i></a></p>
+            <p> <a href="https://www.instagram.com/saaol/" target="_blank"><i class='bx bxl-instagram-alt'></i></a></p>
         </div>
 
     </div>

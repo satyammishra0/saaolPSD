@@ -5,26 +5,31 @@
   font-family: "Poppins", sans-serif;
   list-style: none;
   text-decoration: none;
-  line-height: 1.6;
-  font-size: 16px;
+  line-height: 1.4;
+  font-size: 13px;
 }
 
 :root {
-  --primary-blue-colour: #01adef;
-  /* --primary-blue-colour: #029094; */
+  /* --primary-blue-colour: #01adef; */
+  --primary-blue-colour: #1e95c3;
+  --primary-blue-color: #1e95c3;
   --paragraph-font-color: #727272;
+  --primary-yellow-color: #fee400;
   --black: #000;
   --black-100: #0f0f0f;
   --black-80: #262626;
   --black-60: #383838;
   --white: #fff;
   --gray: #e0e0e0;
+  --red: #ec3237;
   --section-padding: 0 7%;
   --gradient-colour: linear-gradient(
     90deg,
-    rgba(2, 144, 148, 1) 0%,
-    rgba(0, 172, 177, 1) 100%
+    rgb(30 149 195) 0%,
+    rgb(30 149 195) 100%
   );
+
+  --gray-bg: #fafafa;
 }
 
 html {

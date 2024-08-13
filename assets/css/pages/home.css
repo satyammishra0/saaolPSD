@@ -1,12 +1,10 @@
 .home-first-section {
-  /* padding: 3% 7% 0; */
   grid-template-columns: repeat(2, 1fr);
   gap: 5%;
 }
 
 .home-first-left > img {
   height: 450px;
-  /* width: 100%; */
   transition: opacity 0.8s ease-in-out;
 }
 
@@ -37,9 +35,9 @@
 }
 
 .first-treatment-card {
-  padding: 15px 25px;
-  grid-template-columns: 30% 1fr;
-  gap: 8%;
+  padding: 15px 5px;
+  grid-template-columns: 25% 1fr;
+  gap: 5%;
 }
 
 .first-treatment-card {
@@ -49,8 +47,17 @@
   color: var(--primary-blue-colour);
 }
 
+.first-treatment-card-left > img {
+  height: 100%;
+  width: 100%;
+}
+
 .first-treatment-card-rigth {
   font-weight: 500;
+}
+
+.first-treatment-card-rigth > a {
+  color: var(--primary-blue-colour);
 }
 
 /* ------------------------------------ */
@@ -67,11 +74,11 @@
 
 .about-us-content > p {
   margin: 5% 0;
-  text-align: justify;
   color: var(--paragraph-font-color);
 }
 
 .about-us-image > img {
+  height: 430px;
   border-radius: 3px;
   border: 2px solid var(--primary-blue-colour);
 }
@@ -97,11 +104,13 @@
 /* About us section css */
 /* ------------------------------------ */
 
-.eecp-treatments {
-  background-image: url(../../images/psd/EECP-treatment-machine-shadow.png);
+.eecp-ttm-parents {
+  background-image: url(../../images/home/EECP-section-BG.png);
   /* padding: 5% 7%; */
   position: relative;
   z-index: 1;
+  width: 100%;
+  height: 100%;
 }
 
 .blue-layers {
@@ -110,6 +119,8 @@
   left: 0;
   width: 100%;
   padding: 5% 7%;
+  grid-template-columns: 62% 1fr;
+  gap: 5%;
 }
 
 .eecp-treatment-contents .gradient-div {
@@ -122,13 +133,20 @@
 
 .eecp-treatment-contents > p {
   margin: 5% 0;
-  text-align: justify;
   color: var(--white);
+}
+
+.eecp-treatment-contents > h2 > span {
+  color: var(--primary-yellow-color) !important;
 }
 
 .eecp-treatment-images > img {
   border-radius: 3px;
   width: 100%;
+}
+
+.eecp-treatment-images > h4 {
+  color: var(--white);
 }
 
 /* ------------------------------------ */
@@ -157,7 +175,6 @@
 }
 
 .why-choose .patient-says-first > p {
-  color: var(--primary-blue-colour);
   text-align: center;
   line-height: 1.8;
 }
@@ -169,29 +186,167 @@
 }
 
 .why-choose-conatiner-card {
-  padding: 10% 5%;
-  margin-bottom: 15%;
   position: relative;
 }
 
-.why-choose-img-circle {
-  border: 1px solid var(--white);
+.why-choose-img-circle > img {
   height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
-.why-choose-img-circle > img {
-  height: 60px;
+.why-choose-conatiner-card > h5 {
+  color: var(--primary-blue-colour);
+  margin: 3% 0;
 }
 
 .why-choose-conatiner-card > p {
-  margin: 5% 0;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+/* ------------------------------------ */
+/* reviews section css */
+/* ------------------------------------ */
+
+.review-section {
+  width: 100%;
+  padding: 5% 7%;
+  height: 100%;
+  background-image: url("../../images/home/patient-bg.png");
+}
+
+.review-grid {
+  grid-template-columns: 35% 1fr;
+}
+
+.reivew-left-first {
+  display: flex;
+  align-items: center;
+}
+
+.review-line {
+  height: 4px;
+  width: 25%;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.review-grid-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.reivew-left-first > h5 {
+  font-weight: 400;
   color: var(--white);
+  text-transform: uppercase;
+}
+
+.review-line-2 {
+  height: 6px;
+  width: 50%;
+  background-color: #fff;
+  margin-right: 10px;
+  margin-top: 2%;
+}
+
+.review-grid-left > h2 {
+  color: var(--white);
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 55px;
+  text-transform: capitalize;
+  margin: 2% 0;
+}
+
+.review-grid-left > h2 > span {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 55px;
+  text-transform: capitalize;
+  color: var(--primary-yellow-color);
+}
+
+.review-circle {
+  height: 50px;
+  width: 50px;
+  background-color: var(--white);
+  border-radius: 50%;
+}
+
+.review-circle > i {
+  color: var(--primary-blue-colour);
+  font-size: 30px;
+}
+
+.review-slider-first {
+  display: none;
+  transition: opacity 0.5s ease;
+}
+
+.review-slider-first.active {
+  display: block;
+  opacity: 1;
+}
+
+.review-slider-first > p {
+  font-style: italic;
+  color: var(--white);
+  margin: 5% 0;
+}
+
+.patient-demographics {
+  grid-template-columns: 15% 1fr;
+}
+
+.patients-details > h5 {
+  color: var(--primary-yellow-color);
+}
+
+.patients-details > p {
+  color: var(--white);
+  margin: 1% 0;
+  font-style: italic;
+}
+
+.stars > i {
+  color: var(--primary-yellow-color);
+}
+
+.patient-img {
+  place-items: start;
+}
+
+.patient-img > img {
+  height: 70px;
+  border-radius: 50%;
+}
+
+.slider-buttons {
+  margin-top: 3%;
+  color: var(--white);
+}
+
+.buttons {
+  gap: 5px;
+}
+
+.buttons > div {
+  cursor: pointer;
+  padding: 2px 0px;
+  background-color: var(--white);
+  color: var(--primary-blue-colour);
+}
+
+.buttons > div > i {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .blue-layers {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0%;
+  }
 }
 
 @media screen and (max-width: 700px) {

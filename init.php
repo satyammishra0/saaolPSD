@@ -2,10 +2,10 @@
 
 // ------------------------------- Include Files -------------------------------//
 
-include_once "config.php";  // DB conn
-include_once "includes/function.php"; //all functions related to data
-include_once "includes/route.inc.php";  // routes of all fiels
-include_once "includes/session.php"; //  storing and manging session
+include_once "./psd/config.php";  // DB conn
+include_once "./psd/includes/function.php"; //all functions related to data
+include_once "./psd/includes/route.inc.php";  // routes of all fiels
+include_once "./psd/includes/session.php"; //  storing and manging session
 
 
 // auto include file for classes
@@ -23,7 +23,7 @@ spl_autoload_register(function ($className) {
 
 
 // Include ui DIR PATH
-$include_ui_path = "../components/";
+$include_ui_path = "./psd/components/";
 
 
 define("HEADER", $include_ui_path . "header.php");

@@ -1,27 +1,60 @@
 .numbers-parent {
-  background-color: #ebebfe;
+  background-color: var(--primary-blue-colour);
 }
 
+/* Card styling */
 .number-card {
   padding: 10px 0;
-  color: var(--primary-blue-colour);
+  color: var(--white); /* Set text color to white */
 }
 
-.number-card > h3 {
-  font-size: 45px;
+/* Headings styling */
+.number-card-content > div > h3 {
+  font-size: 35px; /* Adjust font size for h3 */
+  margin: 0; /* Keep the text aligned properly */
+  color: var(--white); /* Ensure text is white */
 }
 
-.number-card > h3 > span {
-  font-size: 45px;
+/* Headings styling */
+.number-card-content > div > h3 > span {
+  font-size: 35px; /* Adjust font size for h3 */
+  margin: 0; /* Keep the text aligned properly */
+  color: var(--white); /* Ensure text is white */
 }
 
-.number-card > p {
-  font-size: 18px;
+/* Paragraph styling */
+.number-card-content > div > p {
+  font-size: 20px; /* Adjust font size for paragraph */
   font-weight: 400;
+  margin: 0; /* Keep the text aligned properly */
+  color: var(--white); /* Ensure text is white */
 }
 
+/* Flex container for content */
+.number-card-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the left */
+  text-align: left; /* Ensure text is aligned left */
+  gap: 20px; /* Add gap between image and content */
+}
+
+/* Image styling */
+.number-card-img {
+  height: 60px; /* Fixed height for consistency */
+}
+
+/* Responsive adjustments */
 @media screen and (max-width: 700px) {
   .numbers-parent {
     flex-direction: column;
+  }
+  .number-card-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .number-card-img {
+    margin-bottom: 10px;
+    height: auto; /* Allow the image to adjust height based on content */
   }
 }

@@ -1,3 +1,7 @@
+.treatment {
+  background-color: var(--gray-bg);
+}
+
 .treatment-card {
   height: 100%;
   padding: 10% 4%;
@@ -6,21 +10,33 @@
 }
 
 .treatment-card > img {
-  height: 80px;
+  height: 70px;
 }
 
 .treatment-card > h4 {
-  font-size: 22px;
+  font-size: 20px;
   margin: 2% 0;
 }
 
 .treatment-card > p {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.5;
   margin-bottom: 3%;
 }
 
+@media screen and (max-width: 1020px) {
+  .treatment .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1%;
+  }
+}
+
 @media screen and (max-width: 700px) {
+  .treatment .grid-4 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+  }
+
   .treatment-card {
     margin-bottom: 5%;
     border-bottom: 4px solid white;

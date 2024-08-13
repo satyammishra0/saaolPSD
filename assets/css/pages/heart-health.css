@@ -1,0 +1,86 @@
+.about-header {
+  background-color: #f8f8f8;
+}
+
+.about-header > h2 {
+  color: #54595f;
+  text-align: center;
+}
+
+/* Heart health section */
+.awards-tab-container {
+  padding: 5% 7%;
+  grid-template-columns: 30% 1fr;
+  grid-gap: 3%;
+}
+
+.awards-tab-button {
+  background-color: transparent;
+  border: 1px solid var(--primary-blue-colour);
+  color: white;
+  padding: 10px 0;
+  margin-bottom: 5px;
+  color: var(--black);
+  border-radius: 6px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.awards-tab-content {
+  display: none;
+  padding: 15px;
+  border: 1px solid var(--primary-blue-colour);
+  border-radius: 6px;
+}
+
+.awards-tab-content > h4 {
+  margin: 4% 0;
+}
+
+.awards-tab-content > ul > li {
+  line-height: 2.2;
+}
+
+.awards-tab-content > ul > li > i {
+  color: var(--primary-blue-colour);
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+.awards-tab-content > ul > li > b {
+  margin-left: 10px;
+}
+
+.awards-tab-content > h4 {
+  color: var(--primary-blue-colour);
+}
+
+/* Stripped table code */
+/* styles.css */
+.striped-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.striped-table > thead > tr {
+  background-color: var(--primary-blue-colour);
+  color: var(--white);
+}
+
+.striped-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.striped-table th,
+.striped-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+@media screen and (max-width: 700px) {
+  .awards-tab-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+}

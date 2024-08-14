@@ -24,7 +24,7 @@
                         <span>How to find the nearest center?</span>
                     </div>
                     <div class="faq-answer" style="max-height: max-content; padding-top: 10px; padding-bottom: 10px;">
-                        It is very easy to find the nearest center near to you for this you just need to visit the find nearest page and from there you can check you state and select for nearest center over there and visit for further proccess.
+                        It is very easy to find the nearest center near to you for this you just need to visit the find nearest page and from there you can check you state and select for nearest center over there and visit for further process.
                     </div>
                 </div>
                 <div class="faq-item">

@@ -76,3 +76,9 @@ section h2 {
   width: 100%;
   height: 100%;
 }
+
+@media screen and (max-width: 700px) {
+  .subscribe-youtube {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

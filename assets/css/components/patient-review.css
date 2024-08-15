@@ -149,4 +149,8 @@
   .review-grid-left {
     margin-bottom: 3%;
   }
+
+  .patient-demographics {
+    grid-template-columns: 30% 1fr;
+  }
 }

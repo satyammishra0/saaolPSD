@@ -75,4 +75,8 @@
   .causes-card-box {
     margin-bottom: 3%;
   }
+
+  .causes-card-container {
+    grid-gap: 0;
+  }
 }

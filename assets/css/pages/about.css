@@ -1,7 +1,7 @@
 .first-states-grid {
   background-image: url("../../images/home/patient-bg.png");
   grid-template-columns: 50% 1fr;
-  padding: 5% 7%;
+  padding: 3% 7%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -26,10 +26,34 @@
 }
 
 /* -------------------------------------- */
+/* About us home section */
+/* -------------------------------------- */
+
+.about-us {
+  padding: 5% 7%;
+}
+
+.about-us-content .gradient-div {
+  margin: 1% 0;
+}
+
+.about-us-content > p {
+  margin: 5% 0;
+  color: var(--paragraph-font-color);
+}
+
+.about-us-image > img {
+  height: 430px;
+  border-radius: 3px;
+  border: 2px solid var(--primary-blue-colour);
+}
+
+/* -------------------------------------- */
 /* Who we are section */
 /* -------------------------------------- */
 .mission-vision {
   padding: 5% 7%;
+  background-color: #fafafa;
 }
 
 .mission-vision > h2 {
@@ -67,7 +91,6 @@
 
 .about-saaol {
   padding: 5% 7%;
-  padding-top: 0;
 }
 
 .about-saaol-parent {

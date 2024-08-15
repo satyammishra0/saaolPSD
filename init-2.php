@@ -40,6 +40,8 @@ define("VIDEO_GALLERY", $include_ui_path . "video-gallery.php");
 define("BLOG_LIST", $include_ui_path . "blogs-list.php");
 define("FAQS", $include_ui_path . "faq's.php");
 define("PATIENT_REVIEW", $include_ui_path . "patient-review.php");
+define("BREADCRUM", $include_ui_path . "breadcrum-section.php");
+
 
 
 

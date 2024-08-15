@@ -52,6 +52,10 @@
 <!-- component card css -->
 <link href="<?= get_assets() ?>css/components/patient-review.css" rel="stylesheet" type="text/css" />
 
+
+<!-- component card css -->
+<link href="<?= get_assets() ?>css/components/breadcrum.css" rel="stylesheet" type="text/css" />
+
 <!-- glider Css -->
 <!-- <link rel="stylesheet" href="<?= get_assets() ?>css/components/glider.css" /> -->
 

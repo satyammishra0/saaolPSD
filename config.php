@@ -34,8 +34,8 @@ if ($_SERVER['HTTP_HOST'] == "localhost") {
 }
 $APP_DOMAIN = preg_replace('#/$#', '', $APP_DOMAIN);
 // define('DOMAIN', $APP_DOMAIN);
-define('DOMAIN', 'http://localhost/saaol/website-live/psd/');
-// define('DOMAIN', 'https://saaol.com/psd/');
+// define('DOMAIN', 'http://localhost/saaol/website-live/psd/');
+define('DOMAIN', 'https://saaol.com/psd/');
 
 
 // case 0 for local host work

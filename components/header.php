@@ -61,7 +61,7 @@
         <a class="ease-transition" href="https://saaol.com/career">Career</a>
         <a class="ease-transition" href="https://saaol.com/patients-journey">Testimonial</a>
         <a class="ease-transition" href="https://saaol.com/emagzine/">E-magzine</a>
-        <a class="ease-transition" href="https://saaol.com/contact-us/">Contact Us</a>
+        <a class="ease-transition" href="https://saaol.com/contact-saaol/">Contact Us</a>
         <!-- <button> -->
         <a class="main-button book-appointment" href="https://saaol.com/all-centers-location/">Our Centers</a>
         <!-- </button> -->

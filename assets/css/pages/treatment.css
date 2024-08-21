@@ -62,8 +62,15 @@
   margin-top: 2%;
 }
 
+.causes-content > h4 {
+  font-size: 16px;
+}
+
+.what-heart-attack-content > ul > li {
+  color: var(--paragraph-font-color);
+}
 .what-heart-attack-content > ul > li > i {
-  color: var(--red);
+  color: var(--primary-blue-color);
   font-size: 20px;
   margin-right: 4px;
 }

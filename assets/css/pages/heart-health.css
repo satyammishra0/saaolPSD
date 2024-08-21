@@ -33,22 +33,16 @@
   border-radius: 6px;
 }
 
-.awards-tab-content > h4 {
-  margin: 4% 0;
-}
-
 .awards-tab-content > ul > li {
   line-height: 2.2;
+  font-size: 13px;
+  color: var(--paragraph-font-color);
 }
 
 .awards-tab-content > ul > li > i {
   color: var(--primary-blue-colour);
-  font-size: 28px;
+  font-size: 18px;
   margin-right: 10px;
-}
-
-.awards-tab-content > ul > li > b {
-  margin-left: 10px;
 }
 
 .awards-tab-content > h4 {

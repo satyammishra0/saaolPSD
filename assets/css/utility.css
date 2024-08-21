@@ -191,9 +191,30 @@
 }
 
 .txt {
-  font-size: 15px;
-  line-height: 1.4;
+  line-height: 1.8;
+  font-size: 13px;
   font-weight: 300;
+  color: var(--paragraph-font-color);
+}
+
+.txt-colot-white {
+  color: var(--white);
+}
+
+.txt-colot-black {
+  color: var(--black);
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-right {
+  text-align: right;
 }
 
 @keyframes l5 {

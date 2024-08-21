@@ -196,6 +196,7 @@
 .why-choose-conatiner-card > h5 {
   color: var(--primary-blue-colour);
   margin: 3% 0;
+  font-size: 16px;
 }
 
 .why-choose-conatiner-card > p {

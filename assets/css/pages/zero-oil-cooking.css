@@ -34,12 +34,12 @@ section h2 {
 .recipe-card > h4 {
   font-size: 24px;
   margin: 2% 0;
-  color: var(--red);
+  color: var(--primary-blue-colour);
   text-align: center;
 }
 
 .recipe-card > ul > li > i {
-  color: var(--red);
+  color: var(--primary-blue-colour);
   font-size: 20px;
   margin-right: 6px;
 }

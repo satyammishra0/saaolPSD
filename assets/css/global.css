@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
   list-style: none;
   text-decoration: none;
-  line-height: 1.4;
+  line-height: 1.8;
   font-size: 13px;
 }
 
@@ -34,4 +34,8 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+p {
+  color: var(--paragraph-font-color);
 }

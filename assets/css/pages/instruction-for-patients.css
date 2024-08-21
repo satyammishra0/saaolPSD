@@ -41,12 +41,10 @@
 .instruction-patient-card h3 {
   margin: 10px 0;
   font-size: 20px;
-  color: #333;
 }
 
 .instruction-patient-card p {
-  font-size: 14px;
-  color: #666;
+  color: var(--paragraph-font-color);
 }
 
 @media (max-width: 768px) {

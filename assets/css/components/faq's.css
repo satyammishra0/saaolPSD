@@ -28,6 +28,11 @@
   padding: 10px 0;
 }
 
+.faq-question span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
 .faq-question img {
   margin-right: 20px;
 }
@@ -42,7 +47,7 @@
   overflow: hidden;
   transition: max-height 0.3s ease, padding 0.3s ease;
   padding: 0 0;
-  border-left: 6px solid var(--primary-blue-colour);
+  border-left: 4px solid var(--primary-blue-colour);
   padding-left: 5%;
   display: flex;
   flex-direction: column;

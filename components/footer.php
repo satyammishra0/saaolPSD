@@ -5,7 +5,7 @@
                 <img src="<?= get_img() ?>/saaol_logo.webp" alt="SAAOL website logo ">
             </div>
             <div class="footer-container-box-wt-content">
-                <p>Transforming heart health with Natural Heart Treatment
+                <p class="txt-colot-white">Transforming heart health with Natural Heart Treatment
                     & advanced EECP Therapy. Trust SAAOL Heart Center for
                     a smarter, healthier heart journey.</p>
             </div>
@@ -41,7 +41,7 @@
                     <i class='bx bxs-map'></i>
                 </div>
                 <div class="contact-details-container-rigth">
-                    <b>Corporate Office:</b> Saaol House 30-31, Jonapur Estate, Jonapur, New Delhi -110047
+                    <b class="txt-colot-white">Corporate Office:</b> Saaol House 30-31, Jonapur Estate, Jonapur, New Delhi -110047
                 </div>
             </div>
             <div class="contact-details-container grid">
@@ -49,7 +49,7 @@
                     <i class='bx bxs-map'></i>
                 </div>
                 <div class="contact-details-container-rigth">
-                    <b>Head Office:</b> SAAOL Experience Center Dehradun (SAAOL Heart and Wellness Research Institute) Shivpuri, Hariyawala Kalan, Dehradun, Uttarakhand-248141
+                    <b class="txt-colot-white">Head Office:</b> SAAOL Experience Center Dehradun (SAAOL Heart and Wellness Research Institute) Shivpuri, Hariyawala Kalan, Dehradun, Uttarakhand-248141
                 </div>
             </div>
             <div class="contact-details-container grid">
@@ -92,7 +92,7 @@
         </div>
     </div>
     <div class="footer-bottom-txt flex-center-between">
-        <p>Copyright © 2024, SAAOL – All Rights Reserved.</p>
+        <p class="txt-colot-white">Copyright © 2024, SAAOL – All Rights Reserved.</p>
         <div>
             <a href="https://saaol.com/privacy-policy/">Privacy Policy |</a>
             <a href="https://saaol.com/terms-conditions/"> Terms & Conditions</a>

@@ -39,6 +39,11 @@
   color: var(--paragraph-font-color);
 }
 
+.awards-tab-content > ul > li > b {
+  margin-left: 5px;
+  color: var(--primary-blue-colour);
+}
+
 .awards-tab-content > ul > li > i {
   color: var(--primary-blue-colour);
   font-size: 18px;

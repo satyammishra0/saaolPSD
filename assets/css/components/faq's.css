@@ -13,8 +13,8 @@
 }
 
 .faq-item {
-  margin-bottom: 20px;
-  padding: 2% 5%;
+  margin-bottom: 10px;
+  /* padding: 2% 5%; */
 }
 
 .faq-item:last-child {

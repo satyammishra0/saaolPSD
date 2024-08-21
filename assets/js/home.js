@@ -1,5 +1,5 @@
 // Select the image element
-let home_slider_image = document.getElementById("home_slider_image");
+// let home_slider_image = document.getElementById("home_slider_image");
 
 // // Array of image URLs
 // var imgNamesArray = [
@@ -21,7 +21,7 @@ let home_slider_image = document.getElementById("home_slider_image");
 // }
 
 // Call changeImage function every 2 seconds
-setInterval(changeImage, 3000);
+// setInterval(changeImage, 3000);
 
 document.addEventListener("DOMContentLoaded", function () {
   const slides = document.querySelectorAll(".review-slider-first");

@@ -205,6 +205,14 @@
   color: var(--black);
 }
 
+.txt-color-white {
+  color: var(--white);
+}
+
+.txt-color-black {
+  color: var(--black);
+}
+
 .txt-left {
   text-align: left;
 }

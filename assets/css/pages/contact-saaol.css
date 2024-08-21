@@ -1,0 +1,111 @@
+.section-pg-padding {
+  padding: 5% 7%;
+}
+
+.contact-header {
+  background-color: #f8f8f8;
+}
+
+.contact-header > h2 {
+  color: #54595f;
+  text-align: center;
+}
+
+.map {
+  border: 3px solid var(--primary-blue-color);
+}
+
+.map > iframe {
+  height: 100%;
+  width: 100%;
+}
+
+/* Contact Details */
+.contact-details {
+  background-color: var(--gray-bg);
+}
+
+.contact-details-grid {
+  color: var(--white);
+}
+
+.contact-details-grid-child {
+  grid-template-columns: 20% 1fr;
+}
+
+.contact-form {
+  padding: 5% 5%;
+}
+
+.contact-icon > svg {
+  height: 45px;
+  width: 45px;
+  fill: var(--primary-blue-color);
+  color: var(--primary-blue-color);
+}
+
+.contact-content > h4 {
+  font-size: 20px;
+  margin-bottom: 2%;
+  color: var(--primary-blue-color);
+}
+
+.contact-form-container {
+  padding: 5%;
+  background-color: var(--primary-blue-color);
+  color: vaR(--white);
+}
+
+.contact-form-container > p {
+  margin-bottom: 5%;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.contact-form-container > form > div {
+  margin-bottom: 3%;
+}
+
+.contact-form-container > form > div > div > input {
+  width: 100%;
+  border-radius: 5px;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  padding-left: 6px;
+  border: 0.7px solid gray;
+}
+
+.contact-form-container > form > div > select {
+  width: 100%;
+  border-radius: 5px;
+  height: 45px;
+  outline: none;
+}
+
+.contact-form-container > form > div > textarea {
+  width: 100%;
+  border: 0.7px solid gray;
+  border-radius: 5px;
+}
+
+.contact-form-container > form > button[type="submit"] {
+  background-color: var(--blue);
+  padding: 10px 25px;
+  cursor: pointer;
+  color: var(--white);
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 700px) {
+  .contact-details-grid-child {
+    margin-bottom: 5%;
+  }
+
+  .contact-details .grid-3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

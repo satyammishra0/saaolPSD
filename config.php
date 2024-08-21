@@ -33,31 +33,20 @@ if ($_SERVER['HTTP_HOST'] == "localhost") {
     define('mode', 1);
 }
 $APP_DOMAIN = preg_replace('#/$#', '', $APP_DOMAIN);
-// define('DOMAIN', $APP_DOMAIN);
 define('DOMAIN', 'http://localhost/saaol/website-live/psd/');
 // define('DOMAIN', 'https://saaol.com/psd/');
 
 
-// case 0 for local host work
-// case 1 for production
-
 if (mode == 1) {
-    // $Mdb_username = 'saaolwfghrtsd_crm_user';
-    // $Mdb_password = 'Mdh.%;KMqDWF';
-    // $Mdb_name = 'saaolwfghrtsd_crm';
-    // $Mdb_host = 'localhost';
-    // $DB_Prefix = "tbl_";
-
     $Mdb_host = "localhost";
     $Mdb_password = "CAIZk.}&vW1X";
     $Mdb_username = "saaolwfghrtsd_appointment_user";
     $Mdb_name = "saaolwfghrtsd_appointment_form";
     $DB_Prefix = "tbl_";
 } else {
-
     $Mdb_username = 'root';
     $Mdb_password = '';
-    $Mdb_name = 'saaol_crm_live';
+    $Mdb_name = 'saaol-website-live';
     $Mdb_host = 'localhost';
     $DB_Prefix = "tbl_";
 }
@@ -97,10 +86,7 @@ ini_set('max_input_time', 300000000); // For image upload
 ini_set('innodb_log_file_size', '512M'); // For database
 ini_set('max_allowed_packet', '16M');  // For database
 
-// $sqlList = "SELECT tss_value FROM " . DB_PREFIX . "site_settings WHERE tss_parameter = 'site_url'";
-// $qryList = $DB->prepare($sqlList);
-// $qryList->execute();
-// $row = $qryList->fetch();
+
 $Site_Url =  'https://saaol.com/psd';
 
 $Main_Site_Url =  $Site_Url;

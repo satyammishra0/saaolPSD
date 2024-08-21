@@ -1,0 +1,152 @@
+/* Section */
+
+.form-container {
+  padding: 5% 6%;
+  background-color: #f5f5f5;
+}
+
+.form-parent {
+  background-color: #fff;
+  padding: 5%;
+}
+
+.form-parent > h2 {
+  color: #3a3a3a;
+  font-style: 35px;
+  font-weight: normal;
+  margin-bottom: 4%;
+}
+
+.form-parent > form > label {
+  color: #4b4f58;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.appointment-input {
+  display: block;
+  float: none;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  height: 38px;
+  width: 60%;
+  line-height: 1.3;
+  margin-bottom: 3%;
+}
+
+.form-parent > form > small {
+  color: rgb(255, 70, 70);
+  font-style: 13px;
+}
+
+.form-parent > form > button {
+  padding: 10px 15px;
+  background-color: var(--primary-blue-color);
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff !important;
+}
+
+.error-msg {
+  font-size: 14px;
+  color: red;
+  margin: 2% 0;
+}
+
+.success-msg {
+  font-size: 14px;
+  color: green;
+  margin: 2% 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .appointment-input {
+    width: 100%;
+  }
+}
+
+.form-parent > form > select {
+  display: block;
+  float: none;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  height: 38px;
+  width: 60%;
+  line-height: 1.3;
+  margin-bottom: 2%;
+}
+
+.form-parent > form > div > select {
+  display: block;
+  float: none;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  height: 38px;
+  width: 60%;
+  line-height: 1.3;
+  margin-bottom: 2%;
+}
+
+.form-parent > form > div > label {
+  color: #4b4f58;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.form-parent > form > div > div > select {
+  display: block;
+  float: none;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  height: 38px;
+  width: 60%;
+  line-height: 1.3;
+  margin-bottom: 2%;
+}
+
+.form-parent > form > div > div > label {
+  color: #4b4f58;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+/* Loader CSS */
+.custom-loader-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  display: none;
+}
+
+.myloader {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.custom-loader {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: conic-gradient(#0000 10%, #3490dc);
+  --webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
+  animation: s3 0.5s infinite linear;
+}
+
+@keyframes s3 {
+  to {
+    transform: rotate(1turn);
+  }
+}

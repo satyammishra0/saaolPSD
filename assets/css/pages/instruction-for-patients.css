@@ -1,20 +1,4 @@
-.first-states-grid {
-  background-image: url("../../images/home/patient-bg.png");
-  grid-template-columns: 50% 1fr;
-  padding: 5% 7%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.first-banner-cities-content {
-  margin-right: 5%;
-}
-
-.first-banner-cities-content > h2 {
-  margin-bottom: 3%;
-  color: var(--white);
-  font-weight: 700;
-}
 
 /* instructions container */
 

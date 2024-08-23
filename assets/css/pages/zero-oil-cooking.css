@@ -65,6 +65,11 @@ section h2 {
 
 .subscribe-img > a > img {
   border-radius: 6px;
+  width: 100%;
+}
+
+.subscribe-img {
+  margin-right: 4%;
 }
 
 .zero-oil-processing > p {

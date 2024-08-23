@@ -62,9 +62,11 @@
 }
 
 .main-heading {
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 40px;
+  letter-spacing: 1px;
+  line-height: 1.5;
   font-weight: 700;
+  margin-bottom: 2%;
 }
 
 .text {
@@ -215,7 +217,6 @@
 .txt {
   line-height: 1.8;
   font-size: 13px;
-  font-weight: 300;
   color: var(--paragraph-font-color);
 }
 

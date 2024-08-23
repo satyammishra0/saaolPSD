@@ -33,6 +33,7 @@
 .awards-tab-container {
   display: flex;
   flex-direction: column;
+  padding-top: 0;
 }
 
 .awards-btn-container {

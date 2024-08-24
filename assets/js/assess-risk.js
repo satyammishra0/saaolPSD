@@ -1,3 +1,33 @@
+function checkFormVisibility() {
+  var lastSubmission = localStorage.getItem("AssessRiskformSubmittedAt");
+  if (lastSubmission) {
+    var currentTime = new Date().getTime();
+    var timeDifference = currentTime - lastSubmission;
+    var minutesPassed = Math.floor(timeDifference / 60000); // Convert milliseconds to minutes
+
+    if (minutesPassed < 20) {
+      // Hide form and show message
+      $("#myForm").hide();
+      $("#submissionMessage")
+        .show()
+        .text(
+          "You have submitted the form and we'll contact you soon. Please try again after"
+        );
+    } else {
+      // Show form and hide message
+      $("#myForm").show();
+      $("#submissionMessage").hide();
+      localStorage.removeItem("AssessRiskformSubmittedAt"); // Allow form submission again after 20 minutes
+    }
+  } else {
+    $("#myForm").show();
+    $("#submissionMessage").hide();
+  }
+}
+
+// Check form visibility on page load
+checkFormVisibility();
+
 $(document).ready(function () {
   $("#submit-btn").click(function (event) {
     event.preventDefault(); // Prevent default form submission
@@ -29,7 +59,11 @@ $(document).ready(function () {
         if (response.status === "success") {
           alert(response.message);
           $("#custom-loader-container").hide();
-          location.reload();
+          localStorage.setItem(
+            "AssessRiskformSubmittedAt",
+            new Date().getTime()
+          );
+          checkFormVisibility();
         } else {
           alert(response.message);
           $("#custom-loader-container").hide();

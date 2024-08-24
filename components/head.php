@@ -1,7 +1,4 @@
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,10 +57,6 @@
 <!-- <link rel="stylesheet" href="<?= get_assets() ?>css/components/glider.css" /> -->
 
 <!-- Google translate scripts -->
-<meta name="google-translate-customization" content="...">
-</meta>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
 
 <!-- SLICK CSS -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />

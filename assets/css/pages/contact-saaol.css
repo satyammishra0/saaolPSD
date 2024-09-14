@@ -53,7 +53,7 @@
 .contact-form-container {
   padding: 5%;
   background-color: var(--primary-blue-color);
-  color: vaR(--white);
+  /* color: vaR(--white); */
 }
 
 .contact-form-container > p {
@@ -74,6 +74,20 @@
   font-size: 18px;
   padding-left: 6px;
   border: 0.7px solid gray;
+}
+
+label {
+  color: var(--white);
+}
+
+input[type="tel"] {
+  width: 100% !important;
+  border-radius: 5px !important;
+  height: 45px !important;
+  outline: none !important;
+  font-size: 18px !important;
+  border: 0.7px solid gray !important;
+  color: var(--black) !important;
 }
 
 .contact-form-container > form > div > select {

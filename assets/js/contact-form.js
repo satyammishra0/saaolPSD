@@ -1,3 +1,19 @@
+const phoneInput = document.querySelector("#phone");
+const iti = window.intlTelInput(phoneInput, {
+  initialCountry: "in",
+  utilsScript:
+    "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+});
+
+phoneInput.addEventListener("blur", function () {
+  const fullPhoneNumber = iti.getNumber();
+  const countryData = iti.getSelectedCountryData();
+  const countryCode = countryData.dialCode;
+
+  document.querySelector("#fullPhoneNumber").value = fullPhoneNumber;
+  document.querySelector("#countryCode").value = countryCode;
+});
+
 function contactForm(event) {
   var formData = $("#contact-form").serialize();
   event.preventDefault();
@@ -17,7 +33,6 @@ function contactForm(event) {
       alert(errorThrown);
     },
     complete: function () {
-      // Enable submit button and hide loader-container after completion
       $("#submitBtn").prop("disabled", false);
       $("#custom-loader-container").hide();
     },

@@ -1,3 +1,19 @@
+const phoneInput = document.querySelector("#phone");
+const iti = window.intlTelInput(phoneInput, {
+  initialCountry: "in",
+  utilsScript:
+    "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+});
+
+phoneInput.addEventListener("blur", function () {
+  const fullPhoneNumber = iti.getNumber();
+  const countryData = iti.getSelectedCountryData();
+  const countryCode = countryData.dialCode;
+
+  document.querySelector("#fullPhoneNumber").value = fullPhoneNumber;
+  document.querySelector("#countryCode").value = countryCode;
+});
+
 function checkFormVisibility() {
   var lastSubmission = localStorage.getItem("AssessRiskformSubmittedAt");
   if (lastSubmission) {
@@ -38,6 +54,8 @@ $(document).ready(function () {
       name: $("#name").val(),
       phone: $("#phone").val(),
       email: $("#email").val(),
+      countryCode: $("#countryCode").val(),
+      fullPhoneNumber: $("#fullPhoneNumber").val(),
       high_blood_pressure: $('input[name="high_blood_pressure"]:checked').val(),
       diabetes: $('input[name="diabetes"]:checked').val(),
       family_history: $('input[name="family_history"]:checked').val(),

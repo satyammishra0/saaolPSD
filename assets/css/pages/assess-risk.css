@@ -1,4 +1,9 @@
 /* General Form Container */
+
+.iti {
+  width: 100%;
+}
+
 .form-container {
   padding: 5%;
   color: #fff;
@@ -31,7 +36,8 @@
 }
 
 .input-wrapper input[type="text"],
-.input-wrapper input[type="email"] {
+.input-wrapper input[type="email"],
+.input-wrapper input[type="tel"] {
   width: 100%;
   padding: 10px;
   border: 1px solid #ddd;
